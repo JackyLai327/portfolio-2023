@@ -1,3 +1,4 @@
+/* default react stuff */
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,16 +12,146 @@ code {
     monospace;
 }
 
-
+/* settings */
 :root {
   --color-darkblue: #264653;
-  --color-lightgreen: #2a9d8f;
+  --color-lightgreen: #5bc7ba;
   --color-yellow: #e9c46a;
   --color-orange: #f4a261;
   --color-red: #e76f51;
 }
 
 html, body {
-  background-color: var(--color-darkblue);
+  background-color: var(--color-lightgreen);
   color: var(--color-yellow);
+}
+
+a, a:hover, a:link, a:active, a:visited {
+  text-decoration: none;
+  color: var(--color-yellow);
+}
+
+/* nav bar stuff */
+.nav-bar {
+  background-color: var(--color-darkblue);
+  color: var(--color-darkblue);
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 2rem 1rem;
+}
+
+.nav-bar-item {
+  color: var(--color-yellow);
+  text-shadow: var(--color-lightgreen) 0px 0px 10px;
+}
+
+.nav-bar-item:nth-of-type(1) {
+  margin-left: 5rem;
+}
+
+.about-btn:hover {
+  cursor: pointer;
+}
+
+/* nav bar animation */
+.nav-bar-open, .nav-bar-open a {
+  animation: slide-in 0.5s ease-in-out;
+  color: var(--color-red);
+}
+
+
+.nav-bar-closed, .nav-bar-closed a {
+  color: transparent;
+  position: absolute;
+  left: 6rem;
+  pointer-events: none;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+    color: transparent;
+  }
+  100% {
+    transform: translateX(0);
+    color: var(--color-red);
+  }
+}
+
+.nav-bar-underline-open {
+  animation: open-underline 0.5s ease-in-out;
+  color: var(--color-yellow);
+  position: relative;
+  top: 1.5rem;
+  left: -30rem;
+  border-top: 1px solid var(--color-yellow);
+  width: 24rem;
+}
+
+.nav-bar-underline-closed {
+  animation: close-underline 0.5s ease-in-out;
+  position: relative;
+  top: 1.5rem;
+  left: -10.775rem;
+  border-top: 1px solid var(--color-yellow);
+  width: 0;
+}
+
+@keyframes open-underline {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 24rem;
+  }
+}
+  
+@keyframes close-underline {
+  0% {
+    width: 24rem;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+.contact-pushed {
+  animation: push-contact 0.5s ease-in-out;
+}
+
+.contact-back {
+  animation: pull-contact 0.5s ease-in-out;
+}
+
+@keyframes push-contact {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes pull-contact {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* home stuff */
+.home-top-block {
+  height: 40vh;
+  background-color: var(--color-darkblue);
+}
+
+/* footer stuff */
+.footer {
+  background-color: var(--color-darkblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }

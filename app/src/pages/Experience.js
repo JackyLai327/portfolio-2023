@@ -1,8 +1,11 @@
+import NavBar from "../components/NavBar";
+
 function Experience() {
     return (
         <div>
-        <h1>Experience</h1>
-        <p>My experience</p>
+            <NavBar />
+            <h1>Experience</h1>
+            <p>My experience</p>
         </div>
     );
 }
