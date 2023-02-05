@@ -261,6 +261,22 @@ a, a:hover, a:link, a:active, a:visited {
   animation: fade-in 1s ease-in-out;
 }
 
+.line-across {
+  border-top: 2px solid var(--color-red);
+  width: 100vw;
+  margin: 0 auto;
+  animation: extend 1s ease-in-out;
+}
+
+@keyframes extend {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 /* footer stuff */
 .footer {
   background-color: var(--color-darkblue);
@@ -269,7 +285,6 @@ a, a:hover, a:link, a:active, a:visited {
   align-items: center;
   padding: 2rem;
 }
-
 
 /* general animations */
 
@@ -292,8 +307,47 @@ a, a:hover, a:link, a:active, a:visited {
   color: white;
   border-radius: 50%;
   padding: .25rem;
-  margin-top: 2rem;
+  margin-top: 2.1rem;
   margin-left: -2rem;
   box-shadow: var(--color-red) 0px 0px 10px;
   animation: fade-in .5s ease-in-out;
+}
+
+/* shapes */
+.rotating-square {
+  position: absolute;
+  background-color: var(--color-red);
+  border-radius: 15%;
+  animation: rotate-square 4s infinite linear;
+}
+
+@keyframes rotate-square {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bouncing-circle {
+  position: absolute;
+  background-color: var(--color-yellow);
+  border-radius: 50%;
+  animation: bounce-circle 1s infinite ease-in-out;
+}
+
+@keyframes bounce-circle {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
