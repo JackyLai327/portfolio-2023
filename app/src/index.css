@@ -148,7 +148,7 @@ a, a:hover, a:link, a:active, a:visited {
   }
   100% {
     transform: translateY(0);
-    color: var(--color-red);
+    color: var(--color-orange);
   }
 }
 
@@ -156,8 +156,7 @@ a, a:hover, a:link, a:active, a:visited {
   animation: open-underline 0.5s ease-in-out;
   color: var(--color-yellow);
   position: relative;
-  top: 1.8rem;
-  left: -35.2rem;
+  transform: translate(12rem, -.8rem);
   border-top: 1px solid var(--color-yellow);
   width: 27rem;
 }
@@ -165,8 +164,7 @@ a, a:hover, a:link, a:active, a:visited {
 .nav-bar-underline-closed {
   animation: close-underline 0.5s ease-in-out;
   position: relative;
-  top: 1.8rem;
-  left: -12.4rem;
+  transform: translate(12rem, -.8rem);
   border-top: 1px solid var(--color-yellow);
   width: 0;
 }
