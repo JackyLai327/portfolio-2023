@@ -5,6 +5,12 @@ import profilePic from '../resources/profile_pic_hi.JPG';
 
 function Home() {
 
+  const [foundEasterEgg, setFoundEasterEgg] = React.useState(false);
+
+  const handleEasterEgg = () => {
+    setFoundEasterEgg(true);
+  }
+
   return (
     <div>
       <div className='home-top-block'>
@@ -12,9 +18,10 @@ function Home() {
           <div className='code-font typewriter'>
             <span className='text-function-color'>print</span>
             <span className='text-parenthesis-color'>(</span>
-            <span className='text-string-color'>'Hello, world!'</span>
+            <span className='text-string-color home-easter-egg' onClick={handleEasterEgg}>'Hello, world!'</span>
             <span className='text-parenthesis-color'>)</span>
           </div>
+          <span className={foundEasterEgg ? "egg-found" : "d-none"}>🥚 World says hi! 🤍</span>
           <div>My name is Yu-Cheng Lai</div>
           <div>I'm an IT student at RMIT</div>
         </div>
