@@ -22,7 +22,7 @@ function ProjectCard(props) {
                 {/* COLLAPSED */}
                 <div className={!isExpanded ? "project-thumbnail" : "d-none"}><img src={props.thumbnail} alt="web-game-dev-thumbnail"/></div>
                 {/* EXPANDED */}
-                <div className={!isExpanded ? "d-none" : "project-slide"}>IMAGE SLIDE GOES HERE</div>
+                <div className={!isExpanded || props.previews === undefined ? "d-none" : "project-slide"}>IMAGE SLIDE GOES HERE</div>
                 {/* BOTH */}
                 <div className="project-description d-flex">
                     {props.description}

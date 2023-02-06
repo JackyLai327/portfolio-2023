@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
 import webGameDevThumbnail from "../resources/web-game-dev-thumbnail.png";
+import questionMark from "../resources/question-mark.png";
 
 function Projects() {
 
@@ -28,8 +29,22 @@ function Projects() {
       </div>
 
       <div className="project-collection">
+
+        {/* Default card */}
+        <div className={parameterSelected !== null ? "hide-project" : "display-project"}>
+          <ProjectCard 
+          title="Click a parameter to view projects" 
+          thumbnail={questionMark} 
+          // question mark png reference:
+          // <a href="https://www.flaticon.com/free-icons/question-mark" title="question mark icons">Question mark icons created by Freepik - Flaticon</a>
+          description="It's just up there!" 
+          date="Yes, in the heading!"
+          summary="Ah... You missed the heading? Well, click on self or team, where there are dotted underlines, to view my projects. Here are more hints: self --> individual projects, team --> group projects." 
+        /></div>
+
+        {/* Group Project */}
         <div className={parameterSelected === "self" || parameterSelected === null ? "hide-project" : "display-project"}>
-          <ProjectCard //GROUP PROJECT
+          <ProjectCard 
           title="Web Game Development" 
           thumbnail={webGameDevThumbnail} 
           description="Group Project at RMIT" 
@@ -38,9 +53,11 @@ function Projects() {
           link1="https://jackylai327.github.io/iit_a3_repo/index.html"
           link2="https://jackylai327.github.io/iit_a3_repo/game01/build/web/index.html"
         /></div>
+
+        {/* Individual Project */}
         <div className={parameterSelected === "team" || parameterSelected === null ? "hide-project" : "display-project"}>
           <ProjectCard 
-          title="Web Game Development" 
+          title="Placeholder Project 1" 
           thumbnail={webGameDevThumbnail} 
           description="Group Project at RMIT" 
           date="2021"
@@ -48,9 +65,11 @@ function Projects() {
           // link1="https://jackylai327.github.io/iit_a3_repo/index.html"
           link2="https://jackylai327.github.io/iit_a3_repo/game01/build/web/index.html"
         /></div>
+
+        {/* Individual Project */}
         <div className={parameterSelected === "team" || parameterSelected === null ? "hide-project" : "display-project"}>
           <ProjectCard 
-          title="Web Game Development" 
+          title="Placeholder Project 2" 
           thumbnail={webGameDevThumbnail} 
           description="Group Project at RMIT" 
           date="2021"
@@ -58,6 +77,7 @@ function Projects() {
           // link1="https://jackylai327.github.io/iit_a3_repo/index.html"
           // link2="https://jackylai327.github.io/iit_a3_repo/game01/build/web/index.html"
         /></div>
+
       </div>
 
       <Footer />
