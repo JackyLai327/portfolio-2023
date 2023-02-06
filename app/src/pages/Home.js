@@ -1,7 +1,7 @@
 import React from 'react';
 import AnimatedShape from '../components/AnimatedShape';
 import NavBar from '../components/NavBar';
-import profilePic from '../resources/profile_pic.JPG';
+import profilePic from '../resources/profile_pic_hi.JPG';
 
 function Home() {
 
@@ -27,13 +27,10 @@ function Home() {
         <img src={profilePic} alt='pfp' /> 
       </div>
 
-      <div className='line-across' ></div>
-      <div className='top-right-bottom-left-line'></div>
-
       <AnimatedShape shape='rotating-square' size='6vw' top='80vh' left='10vw'/>
       <AnimatedShape shape='rotating-square' size='10vw' top='75vh' left='22vw'/>
       <AnimatedShape shape='rotating-square' size='15vw' top='70vh' left='40vw'/>
-      <AnimatedShape shape='bouncing-circle' size='.5rem' top='15.6rem' left='31.5rem'/>
+      <AnimatedShape shape='bouncing-circle' size='.5rem' top='18.8rem' left='31.5rem'/>
     </div>
   );
 }

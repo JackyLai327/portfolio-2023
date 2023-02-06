@@ -24,6 +24,7 @@ function NavBar() {
                 <div className={navOpen === true ? "nav-bar-item contact-pushed" : "nav-bar-item contact-back"}><a className = {location === "/contact" ? "user-location" : ''} href="/contact">Contact</a></div>
                 <div className={navOpen === true ? "nav-bar-underline-open" : "nav-bar-underline-closed"}></div>
             </div>
+            <div className='line-across'></div>
         </div>
     )
 }
