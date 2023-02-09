@@ -1,7 +1,7 @@
 import React from 'react';
 import AnimatedShape from '../components/AnimatedShape';
 import NavBar from '../components/NavBar';
-import profilePic from '../resources/profile_pic_hi.JPG';
+import profilePic from '../resources/profile_pic_formal.jpeg';
 
 function Home() {
 
@@ -18,7 +18,7 @@ function Home() {
           <div className='code-font typewriter'>
             <span className='text-function-color'>print</span>
             <span className='text-parenthesis-color'>(</span>
-            <span className='text-string-color home-easter-egg' onClick={handleEasterEgg}>'Hello, world!'</span>
+            <span className='text-string-color home-easter-egg' onClick={handleEasterEgg}>'Hello, World!'</span>
             <span className='text-parenthesis-color'>)</span>
           </div>
           <span className={foundEasterEgg ? "egg-found" : "d-none"}>🥚 World says hi! 🤍</span>

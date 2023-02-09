@@ -8,18 +8,17 @@ import questionMark from "../resources/question-mark.png";
 function Projects() {
 
   const [parameterSelected, setParameterSelected] = useState(null);
-  console.log(parameterSelected)
 
   const selectParameter = (parameter) => {
     setParameterSelected(parameter);
-    console.log(parameterSelected)
   }
+
 
   return (
     <div>
       <NavBar />
       <div className="code-font heading typewriter">
-        <span>display</span>
+        <span>project</span>
         <span className="text-parenthesis-color">(</span>
         <span className={parameterSelected === "self" ? "heading-parameter-selected" : "heading-parameter"} onClick={() => selectParameter("self")}>self</span>
         <span>, </span>
@@ -40,6 +39,7 @@ function Projects() {
           description="It's just up there!" 
           date="Yes, in the heading!"
           summary="Ah... You missed the heading? Well, click on self or team, where there are dotted underlines, to view my projects. Here are more hints: self --> individual projects, team --> group projects." 
+          previews = {[webGameDevThumbnail, questionMark]}
         /></div>
 
         {/* Group Project */}
