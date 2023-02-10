@@ -528,6 +528,12 @@ a, a:hover, a:link, a:active, a:visited {
   text-shadow: none;
 }
 
+.project-link a img {
+  width: 2.5rem;
+  padding: 0;
+  margin-top: -.5rem;
+}
+
 .project-card-expanded .project-date {
   font-size: 1.2rem;
   margin: 1rem auto;
@@ -581,7 +587,7 @@ a, a:hover, a:link, a:active, a:visited {
   border-radius: 50%;
   padding: .25rem;
   margin-top: 2.1rem;
-  margin-left: -2rem;
+  margin-left: -2rem;;
   box-shadow: var(--color-red) 0px 0px 10px;
   animation: fade-in .5s ease-in-out;
 }
