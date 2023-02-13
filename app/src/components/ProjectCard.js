@@ -54,8 +54,8 @@ function ProjectCard(props) {
                 <div className={!isExpanded || props.previews === undefined ? "d-none" : "project-slide"}>
                     <img src={props.previews?.[slideNumber]} alt={"preview slide number " + slideNumber} className={slideAnimation ? "slide-change" : ""}/>
                     <div className='d-flex slide-buttons'>
-                        <div className='prev-slide-button' onClick={prevSlide}>Previous</div>
-                        <div className='next-slide-button' onClick={nextSlide}>Next</div>
+                        <div className='prev-slide-button' onClick={prevSlide}><button style={{"all": "unset"}}>Previous</button></div>
+                        <div className='next-slide-button' onClick={nextSlide}><button style={{"all": "unset"}}>Next</button></div>
                     </div>
                 </div>
                 {/* DESCRIPTION -> BOTH */}
@@ -79,9 +79,9 @@ function ProjectCard(props) {
                 {/* DATES -> COLLAPSED */}
                 <div className={!isExpanded ? "project-date" : "d-none"}>{props.date}</div>
                 {/* EXPAND BUTTON -> COLLAPSED */}
-                <div className={!isExpanded ? 'project-card-expand-button' : "d-none"} onClick={expandCard}>Expand</div>
+                <div className={!isExpanded ? 'project-card-expand-button' : "d-none"} onClick={expandCard}><button style={{"all": "unset"}}>Expand</button></div>
                 {/* COLLAPSE BUTTON -> EXPANDED */}
-                <div className={!isExpanded ? "d-none" : "project-card-collapse-button"} onClick={collapseCard}>Collapse</div>
+                <div className={!isExpanded ? "d-none" : "project-card-collapse-button"} onClick={collapseCard}><button style={{"all": "unset"}}>Collapse</button></div>
             </div>
         </div>
     )

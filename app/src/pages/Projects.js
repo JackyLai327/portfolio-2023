@@ -20,9 +20,9 @@ function Projects() {
       <div className="code-font heading typewriter">
         <span>project</span>
         <span className="text-parenthesis-color">(</span>
-        <span className={parameterSelected === "self" ? "heading-parameter-selected" : "heading-parameter"} onClick={() => selectParameter("self")}>self</span>
+        <span className={parameterSelected === "self" ? "heading-parameter-selected" : "heading-parameter"} onClick={() => selectParameter("self")}><button style={{"all": "unset"}}>self</button></span>
         <span>, </span>
-        <span className={parameterSelected === "team" ? "heading-parameter-selected" : "heading-parameter"} onClick={() => selectParameter("team")}>team</span>
+        <span className={parameterSelected === "team" ? "heading-parameter-selected" : "heading-parameter"} onClick={() => selectParameter("team")}><button style={{"all": "unset"}}>team</button></span>
         <span className="text-parenthesis-color">)</span>
         <span>:</span>
       </div>
@@ -38,7 +38,7 @@ function Projects() {
             date="Yes, in the heading!"
             summary="Ah... You missed the heading? Well, click on self or team, where there are dotted underlines, to view my projects. Here are more hints: self --> individual projects, team --> group projects." 
             // No links for this card
-            // No preview slides for this card
+            // No preview slides for this card\
           />
         </div>
 
@@ -49,8 +49,14 @@ function Projects() {
             thumbnail={webGameDevThumbnail} 
             description="Group Project at RMIT" 
             date="2021"
-            summary="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
-            websiteLink="https://jackylai327.github.io/iit_a3_repo/index.html"
+            summary={`
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            `}
+            websiteLink="https://jackylai327.github.io/iit_a3_repo/tools_tech_test.html"
             githubLink="https://jackylai327.github.io/iit_a3_repo/game01/build/web/index.html"
             // previews={}
           />

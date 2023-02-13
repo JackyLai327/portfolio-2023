@@ -18,7 +18,7 @@ function Home() {
           <div className='code-font typewriter'>
             <span className='text-function-color'>print</span>
             <span className='text-parenthesis-color'>(</span>
-            <span className='text-string-color home-easter-egg' onClick={handleEasterEgg}>'Hello, World!'</span>
+            <span className='text-string-color home-easter-egg' onClick={handleEasterEgg}><button style={{"all": "unset"}}>'Hello, World!'</button></span>
             <span className='text-parenthesis-color'>)</span>
           </div>
           <span className={foundEasterEgg ? "egg-found" : "d-none"}>🥚 World says hi! 🤍</span>
