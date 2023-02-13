@@ -1,7 +1,7 @@
 import React from 'react';
 import AnimatedShape from '../components/AnimatedShape';
 import NavBar from '../components/NavBar';
-import profilePic from '../resources/profile_pic_formal.jpeg';
+import { profilePicFormal } from '../resources/images';
 
 function Home() {
 
@@ -31,7 +31,7 @@ function Home() {
       <NavBar />
 
       <div className='home-pfp'>
-        <img src={profilePic} alt='pfp' /> 
+        <img src={profilePicFormal} alt='pfp' /> 
       </div>
 
       <AnimatedShape shape='rotating-square' size='6vw' top='80vh' left='10vw'/>

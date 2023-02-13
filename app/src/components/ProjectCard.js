@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import portal from '../resources/portal.png';
-import githubDarkblue from '../resources/github_darkblue.png';
+import { portal, githubDarkblue } from '../resources/images';
 
 function ProjectCard(props) {
 

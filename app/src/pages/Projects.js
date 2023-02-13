@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
-import webGameDevThumbnail from "../resources/web_game_dev_thumbnail.png";
-import questionMark from "../resources/question_mark.png";
+import { 
+  webGameDevThumbnail, questionMark 
+} from "../resources/images";
 
 function Projects() {
 
