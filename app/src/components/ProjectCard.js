@@ -41,7 +41,7 @@ function ProjectCard(props) {
     }
 
     return (
-        <div>
+        <>
             <div className={!isExpanded ? "project-card-collapsed" : "project-card-expanded"}>
                 {/* TITLE -> BOTH */}
                 <div className="project-title text-center">{props.title}</div>
@@ -82,7 +82,7 @@ function ProjectCard(props) {
                 {/* COLLAPSE BUTTON -> EXPANDED */}
                 <div className={!isExpanded ? "d-none" : "project-card-collapse-button"} onClick={collapseCard}><button style={{"all": "unset"}}>Collapse</button></div>
             </div>
-        </div>
+        </>
     )
 }
 

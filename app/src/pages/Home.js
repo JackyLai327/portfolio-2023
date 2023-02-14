@@ -12,7 +12,7 @@ function Home() {
   }
 
   return (
-    <div>
+    <>
       <div className='home-top-block'>
         <div className='summary'>
           <div className='code-font typewriter'>
@@ -38,7 +38,7 @@ function Home() {
       <AnimatedShape shape='rotating-square' size='10vw' top='75vh' left='22vw'/>
       <AnimatedShape shape='rotating-square' size='15vw' top='70vh' left='40vw'/>
       <AnimatedShape shape='bouncing-circle' size='.5rem' top='18.8rem' left='31.5rem'/>
-    </div>
+    </>
   );
 }
 

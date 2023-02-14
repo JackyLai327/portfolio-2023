@@ -16,7 +16,7 @@ function Projects() {
 
 
   return (
-    <div>
+    <>
       <NavBar />
       <div className="code-font heading typewriter">
         <span>project</span>
@@ -126,7 +126,7 @@ function Projects() {
       </div>
 
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -5,3 +5,4 @@ export const profilePicFormal = require('../resources/profile_pic_formal.jpeg');
 export const profilePicHi = require('../resources/profile_pic_hi.JPG');
 export const questionMark = require('../resources/question_mark.png');
 export const webGameDevThumbnail = require('../resources/web_game_dev_thumbnail.png');
+export const githubWhite = require('../resources/github_white.png');

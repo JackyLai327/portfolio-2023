@@ -556,6 +556,44 @@ a, a:hover, a:link, a:active, a:visited {
   text-align: end;
 }
 
+/* contact stuff */
+.contact-card {
+  width: 20vw;
+  min-width: 12rem;
+  height: 5rem;
+  border: 3px solid var(--color-yellow);
+  border-radius: 3rem;
+  margin: 1rem;
+  display: flex;
+  padding: 1rem;
+  background-color: var(--color-darkblue);
+}
+
+.contact-card:hover {
+  cursor: pointer;
+  border-color: var(--color-darkblue);
+  background-color: var(--color-yellow);
+}
+
+.contact-card:hover div {
+  color: var(--color-darkblue);
+}
+
+.contact-card div {
+  /* color: var(--color-darkblue); */
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.contact-card img {
+  margin-right: 1rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
 /* footer stuff */
 .footer {
   background-color: var(--color-darkblue);

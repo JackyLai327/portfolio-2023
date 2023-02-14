@@ -14,7 +14,7 @@ function NavBar() {
     }
 
     return (
-        <div>
+        <>
             <div className="nav-bar" onMouseLeave={handleNavClose}>
                 <div className={location === "/" ? "nav-bar-item user-location" : "nav-bar-item"}><a href="/">Home</a></div>
                 <div className={location === "/education" || location === "/experience" || location === "/projects" ? "nav-bar-item about-btn user-location" : "nav-bar-item about-btn"} onMouseEnter={handleNavOpen}>About</div>
@@ -25,7 +25,7 @@ function NavBar() {
             </div>
             <div className={navOpen === true ? "nav-bar-underline-open" : "nav-bar-underline-closed"}></div>
             <div className='line-across'></div>
-        </div>
+        </>
     )
 }
 
