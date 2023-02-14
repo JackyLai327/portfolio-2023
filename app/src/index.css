@@ -82,6 +82,7 @@ a, a:hover, a:link, a:active, a:visited {
   font-size: 2rem;
   color: var(--color-darkblue);
   font-weight: bolder;
+  font-family: 'Josefin Sans', sans-serif;
   margin-left: 4rem;
 }
 
@@ -559,7 +560,7 @@ a, a:hover, a:link, a:active, a:visited {
 /* contact stuff */
 .contact-card {
   width: 20vw;
-  min-width: 12rem;
+  min-width: 17rem;
   height: 5rem;
   border: 3px solid var(--color-yellow);
   border-radius: 3rem;
@@ -592,15 +593,32 @@ a, a:hover, a:link, a:active, a:visited {
 .socials {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 16vh;
+  margin-bottom: 19vh;
 }
 
 /* footer stuff */
 .footer {
   background-color: var(--color-darkblue);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.1rem;
+  gap: .5rem;
+}
+
+.footer div:nth-of-type(2) {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer img {
+  width: 2rem;
+  margin-top: -.5rem;
 }
 
 /* general animations */
