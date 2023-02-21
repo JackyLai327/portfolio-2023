@@ -50,7 +50,7 @@ code {
   letter-spacing: .15em; /* Adjust as needed */
   width: 34rem;
   animation: 
-    typing 3.5s steps(30, end),
+    typing 1.5s steps(30, end),
     blink-caret .75s step-end infinite;
 }
 
@@ -568,6 +568,7 @@ a, a:hover, a:link, a:active, a:visited {
   display: flex;
   padding: 1rem;
   background-color: var(--color-darkblue);
+  animation: fade-in 1s ease-in-out;
 }
 
 .contact-card:hover {
@@ -594,8 +595,132 @@ a, a:hover, a:link, a:active, a:visited {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 16vh;
-  margin-bottom: 19vh;
+  margin-top: 14vh;
+  margin-bottom: 18vh;
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
+
+/* experience stuff */
+.timeline-top {
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--color-orange); 
+  border-radius: 50%;
+  border: 3px solid white;
+  position: absolute;
+  top: 10rem;
+  left: 49.5vw;
+}
+
+.timeline-top::after {
+  content: "";
+  position: absolute;
+  background-color: white; 
+  width: 2px;
+  height: 10vh;
+  top: .7rem;
+  left: .25rem;
+}
+
+.timeline-separator {
+  height: 15rem;
+  border-left: 2px solid white;
+  margin-left: 50%;
+  margin-top: -8.9rem;
+  margin-bottom: -4.6rem;
+}
+
+.experience-section {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.experience-location {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: var(--color-darkblue);
+  margin-left: 12vw;
+  margin-top: 1rem;
+}
+
+.experience-company {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: var(--color-red);
+  margin-top: 6rem;
+  margin-left: 10vw;
+}
+
+.experience-company a {
+  color: var(--color-red);
+  text-decoration: none;
+}
+
+.experience-summary {
+  font-size: 1.2rem;
+  color: var(--color-darkblue);
+  margin-left: 70vw;
+  margin-right: 7vw;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  background-color: var(--color-yellow);
+  padding-top: 1rem;
+  padding-bottom: .2rem;
+  padding-left: 1.25rem;
+  padding-right: 1.5rem;
+  border-radius: 1rem;
+  border: 3px solid var(--color-red);
+}
+
+.experience-title {
+  font-size: 1.2rem;
+  color: var(--color-darkblue);
+  margin-left: 62vw;
+  margin-right: 7vw;
+  margin-top: -10rem;
+  text-align: end;
+  padding-right: 1rem;
+  margin-bottom: -1rem;
+  font-weight: bolder;
+}
+
+.experience-location::before {
+  content: "";
+  background-color: var(--color-red);
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  margin-left: -2rem;
+  margin-top: -1rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-orange);
+}
+
+.experience-location::after {
+  content: "";
+  background-color: white;
+  width: 2px;
+  height: 2rem;
+  position: absolute;
+  margin-left: -10.9rem;
+  margin-top: .1rem;
+}
+
+.experience-date {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: var(--color-darkblue);
+  margin-left: 8vw;
+  margin-top: -10rem;
+  padding: 2rem;
+  padding-bottom: 10rem;
+}
+
+.experience-logo img{
+  width: 30rem;
+  margin-left: 34vw;
+  margin-top: -42.5rem;
+  padding: 2rem;
 }
 
 /* footer stuff */

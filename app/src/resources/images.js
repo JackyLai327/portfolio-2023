@@ -17,3 +17,4 @@ export const facebookYellow = require('../resources/facebook_yellow.png');
 export const resumeDarkblue = require('../resources/resume_darkblue.png');
 export const resumeYellow = require('../resources/resume_yellow.png');
 export const phoneYellow = require('../resources/phone_yellow.png');
+export const dcardIcon = require('../resources/dcard_icon.png');

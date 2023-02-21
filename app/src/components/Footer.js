@@ -3,6 +3,7 @@ import { phoneYellow } from "../resources/images";
 function Footer() {
     return (
         <footer className="footer">
+            <span>. . .</span>
             <div>Yu-Cheng (Jacky) Lai</div>
             <div>
                 <div className="address">Melbourne, Victoria, Australia 3000</div>

@@ -75,7 +75,7 @@ function Contact() {
                     icon={resumeYellow}
                     iconHovered={resumeDarkblue}
                     title="Resume"
-                    detail="Download"
+                    detail="Open in a new tab"
                     link={resume}
                 />
             </div>

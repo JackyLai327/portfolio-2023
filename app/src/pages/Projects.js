@@ -19,7 +19,7 @@ function Projects() {
     <>
       <NavBar />
       <div className="code-font heading typewriter">
-        <span>project</span>
+        <span>show_project</span>
         <span className="text-parenthesis-color">(</span>
         <span className={parameterSelected === "self" ? "heading-parameter-selected" : "heading-parameter"} onClick={() => selectParameter("self")}><button style={{"all": "unset"}}>self</button></span>
         <span>, </span>
