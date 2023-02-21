@@ -670,13 +670,15 @@ a, a:hover, a:link, a:active, a:visited {
   padding-right: 1.5rem;
   border-radius: 1rem;
   border: 3px solid var(--color-red);
+  min-width: 20rem;
+  max-width: 21.5rem;
 }
 
 .experience-title {
   font-size: 1.2rem;
   color: var(--color-darkblue);
   margin-left: 62vw;
-  margin-right: 7vw;
+  margin-right: 10vw;
   margin-top: -10rem;
   text-align: end;
   padding-right: 1rem;
@@ -717,10 +719,11 @@ a, a:hover, a:link, a:active, a:visited {
 }
 
 .experience-logo img{
-  width: 30rem;
-  margin-left: 34vw;
+  width: 32.5vw;
+  margin-left: calc(50% - 16.25vw);
   margin-top: -42.5rem;
   padding: 2rem;
+  max-width: 30rem;
 }
 
 /* footer stuff */
