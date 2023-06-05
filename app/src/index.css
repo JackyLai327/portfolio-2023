@@ -25,6 +25,10 @@ code {
   --color-red: #e76f51;
 }
 
+.emoji {
+  font-size: 2.5rem;
+}
+
 .code-font {
   font-family: 'Source Code Pro', monospace;
 }
@@ -724,6 +728,125 @@ a, a:hover, a:link, a:active, a:visited {
   margin-top: -42.5rem;
   padding: 2rem;
   max-width: 30rem;
+}
+
+/* education stuff */
+.institute-tab {
+  gap: 2rem;
+  justify-content: center;
+}
+
+.institute-tab-item {
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  color: var(--color-darkblue);
+}
+
+.institute-tab-item:hover {
+  color: var(--color-red);
+}
+
+.institute-underline {
+  text-decoration: underline;
+  font-size: 1.8rem;
+  color: var(--color-red);
+  font-weight: bolder;
+  left: 50%;
+  animation: zoom-in .5s ease-in-out;
+}
+
+@keyframes zoom-in {
+  0% {
+    font-size: 1.2rem;
+  }
+  100% {
+    font-size: 1.8rem;
+  }
+}
+
+.institute-underline::after {
+  content: "";
+  position: relative;
+  background-color: var(--color-red);
+  width: 1rem;
+  bottom: -2rem;
+  right: 49%;
+  border: 3px solid var(--color-red);
+  border-radius: 1rem;
+  animation: zoom-in .5s ease-in-out;
+}
+
+.empty-space {
+  height: 60vh;
+  border: 5px dashed var(--color-red);
+  margin: 5rem;
+  margin-top: 1rem;
+  color: var(--color-darkblue);
+  font-size: 1.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  padding-top: 25vh;
+}
+
+.education-institute {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: var(--color-yellow);
+  margin-top: 2rem;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 1rem;
+  background-color: var(--color-darkblue);
+  padding: 5rem;
+  padding-top: 4rem;
+  border-radius: 5%;
+  border: 5px solid var(--color-red);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.slide-in-from-left {
+  animation: slide-in-from-left .5s ease-in-out;
+}
+
+.slide-in-from-right {
+  animation: slide-in-from-right .5s ease-in-out;
+}
+
+
+@keyframes slide-in-from-left {
+  0% {
+    transform: scale(0) translateX(-100vw);
+  }
+  100% {
+    transform: scale(1) translateX(0);
+  }
+}
+
+@keyframes slide-in-from-right {
+  0% {
+    transform: scale(0) translateX(100vw);
+  }
+  100% {
+    transform: scale(1) translateX(0);
+  }
+}
+
+
+.education-logo img {
+  max-width: 6rem;
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+}
+
+.education-name {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--color-orange);
+}
+
+.education-duration {
+  margin-left: 2rem;
 }
 
 /* footer stuff */

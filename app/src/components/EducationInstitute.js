@@ -3,22 +3,29 @@
 function EducationInstitute(props) {
     return (
         <>
-            <div className="education-logo"><img src={props.instituteLogo} alt="institute logo" /></div>
+            <div className="education-logo">
+                <img src={props.instituteLogo} alt="institute logo" />
+                <span className="education-name">{props.instituteName}</span>
+            </div>
             <div className="education-section">
-                <div className="education-name">{props.instituteName}</div>
-                <div className="education-degree">{props.degree}</div>
-                <div className="education-duration">{props.duration}</div>
+                <div className="education-degree"><span className="emoji">👨🏻‍🎓</span> {props.degree}
+                    <span className="education-duration">[ {props.duration} ]</span>
+                </div>
                 <div className="education-classes">
+                    <div>Notable Classes</div>
                     <div dangerouslySetInnerHTML={{__html: props.notableClasses}}></div>
                 </div>
                 <div className="education-skills">
+                    <div>Skills Acquired</div>
                     <div dangerouslySetInnerHTML={{__html: props.skillsAcquired}}></div>
                 </div>
                 <div className="education-awards">
+                    <div>Awards</div>
                     <div dangerouslySetInnerHTML={{__html: props.awards}}></div>
                 </div>
-                <div className="education-gpa">{props.gpa}</div>
+                <div className="education-gpa">GPA: {props.gpa}</div>
                 <div className="education-clubs">
+                    <div>Extracurricular</div>
                     <div dangerouslySetInnerHTML={{__html: props.extracurricular}}></div>
                 </div>
             </div>

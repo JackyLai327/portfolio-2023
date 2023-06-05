@@ -8,7 +8,7 @@
 - built with `npx create-react-app`
 - [react-reveal](https://www.npmjs.com/package/react-reveal?activeTab=readme)
 ## How and install and run
-- TP BE UPDATED
+- TO BE UPDATED
 ## How to run unit testing
 - No unit testing atm.
 ## Credits or references
