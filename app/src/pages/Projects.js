@@ -5,6 +5,7 @@ import ProjectCard from "../components/ProjectCard";
 import { 
   webGameDevThumbnail, questionMark 
 } from "../resources/images";
+import ColourSwitch from "../components/ColourSwitch";
 
 function Projects() {
 
@@ -18,6 +19,9 @@ function Projects() {
   return (
     <>
       <NavBar />
+
+      <ColourSwitch />
+
       <div className="code-font heading typewriter">
         <span>show_project</span>
         <span className="text-parenthesis-color">(</span>

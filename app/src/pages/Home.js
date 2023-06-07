@@ -2,6 +2,8 @@ import React from 'react';
 import AnimatedShape from '../components/AnimatedShape';
 import NavBar from '../components/NavBar';
 import { profilePicFormal } from '../resources/images';
+import Footer from '../components/Footer';
+import ColourSwitch from '../components/ColourSwitch';
 
 function Home() {
 
@@ -38,6 +40,11 @@ function Home() {
       <AnimatedShape shape='rotating-square' size='10vw' top='75vh' left='22vw'/>
       <AnimatedShape shape='rotating-square' size='15vw' top='70vh' left='40vw'/>
       <AnimatedShape shape='bouncing-circle' size='.5rem' top='18.8rem' left='31.5rem'/>
+
+      <div className='home-empty-space'></div>
+      <Footer />
+
+      <ColourSwitch />
     </>
   );
 }

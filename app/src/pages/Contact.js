@@ -1,6 +1,7 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import ContactCard from "../components/ContactCard";
+import ColourSwitch from "../components/ColourSwitch";
 import { 
     githubDarkblue, githubYellow, emailDarkblue, emailYellow,
     linkedinDarkblue, linkedinYellow, instagramDarkblue, instagramYellow,
@@ -13,6 +14,8 @@ function Contact() {
     return (
         <>
             <NavBar />
+
+            <ColourSwitch />
 
             <div className="heading typewriter contact">
                 <span>show_contact_details</span>

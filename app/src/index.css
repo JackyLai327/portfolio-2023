@@ -4,9 +4,7 @@
 
 /* default react stuff */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -23,6 +21,14 @@ code {
   --color-yellow: #e9c46a;
   --color-orange: #f4a261;
   --color-red: #e76f51;
+}
+
+.no-colour {
+  --color-darkblue: #000000;
+  --color-orange: #333333;
+  --color-lightgreen: #666666;
+  --color-yellow: #ffffff;
+  --color-red: #cfdedf;
 }
 
 .emoji {
@@ -218,7 +224,71 @@ a, a:hover, a:link, a:active, a:visited {
   }
 }
 
+/* colour switch */
+.colour-switch-container {
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.colour-switch-background {
+  width: 4rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border: 3px solid var(--color-lightgreen);
+  background-color: var(--color-yellow);
+  position: relative;
+  margin-left: 3rem;
+}
+
+.colour-switch-toggle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid var(--color-yellow);
+  background-color: var(--color-orange);
+}
+
+.toggle-left {
+  position: absolute;
+  left: 2px;
+  transition: all 0.5s ease-in-out;
+  animation: slide-left 0.5s ease-in-out;
+}
+
+.toggle-right {
+  position: absolute;
+  right: 2px;
+  transition: all 0.5s ease-in-out;
+  animation: slide-right 0.5s ease-in-out;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(-2rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(2rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
 /* home stuff */
+.home-empty-space {
+  height: 50vh;
+}
+
 .home-easter-egg {
   cursor: pointer;
 }
@@ -847,6 +917,7 @@ a, a:hover, a:link, a:active, a:visited {
 
 .education-duration {
   margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 /* footer stuff */

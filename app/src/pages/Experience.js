@@ -2,11 +2,15 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import ExperienceSection from "../components/ExperienceSection";
 import { dcardIcon } from "../resources/images";
+import ColourSwitch from "../components/ColourSwitch";
 
 function Experience() {
     return (
         <>
             <NavBar />
+
+            <ColourSwitch />
+
             <div className="heading typewriter">
                 <span>show_past_experience</span>
                 <span className="text-parenthesis-color">(</span>

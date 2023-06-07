@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import EducationInstitute from "../components/EducationInstitute";
 import { RMITLogo } from "../resources/images";
 import React from "react";
+import ColourSwitch from "../components/ColourSwitch";
 
 function Education() {
 
@@ -15,6 +16,8 @@ function Education() {
   return (
     <>
       <NavBar />
+
+      <ColourSwitch />
       
       <div className="heading typewriter contact">
           <span>education_background</span>
