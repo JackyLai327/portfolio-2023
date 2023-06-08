@@ -29,7 +29,6 @@ function Projects() {
         <span>, </span>
         <span className={parameterSelected === "team" ? "heading-parameter-selected" : "heading-parameter"} onClick={() => selectParameter("team")}><button style={{"all": "unset"}}>team</button></span>
         <span className="text-parenthesis-color">)</span>
-        <span>:</span>
       </div>
 
       <div className="project-collection">
@@ -63,7 +62,7 @@ function Projects() {
             `}
             websiteLink="https://jackylai327.github.io/iit_a3_repo/tools_tech_test.html"
             githubLink="https://jackylai327.github.io/iit_a3_repo/game01/build/web/index.html"
-            // previews={}
+            previews={[webGameDevThumbnail, questionMark]}
           />
         </div>
 

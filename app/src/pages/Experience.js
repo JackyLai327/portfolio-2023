@@ -15,7 +15,6 @@ function Experience() {
                 <span>show_past_experience</span>
                 <span className="text-parenthesis-color">(</span>
                 <span className="text-parenthesis-color">)</span>
-                :
             </div>
 
             <div className="timeline-top"></div>

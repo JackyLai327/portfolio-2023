@@ -23,7 +23,6 @@ function Education() {
           <span>education_background</span>
           <span className="text-parenthesis-color">(</span>
           <span className="text-parenthesis-color">)</span>
-          :
       </div>
 
       <div className="institute-tab d-flex text-center">
@@ -41,7 +40,7 @@ function Education() {
 
       <div className={instituteSelected === "" ? "empty-space" : "d-none"}>Choose an institute to investigate...</div>
 
-      <div class="d-flex education">
+      <div className="d-flex education">
           <div className={instituteSelected === "RMIT" ? "education-institute slide-in-from-left" : "d-none"}>
             <EducationInstitute className={instituteSelected === "RMIT" ? "education-institute" : "collapse"}
               instituteLogo={RMITLogo}

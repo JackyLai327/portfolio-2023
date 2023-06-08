@@ -21,7 +21,6 @@ function Contact() {
                 <span>show_contact_details</span>
                 <span className="text-parenthesis-color">(</span>
                 <span className="text-parenthesis-color">)</span>
-                :
             </div>
             
             
