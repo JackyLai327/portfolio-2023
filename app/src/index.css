@@ -23,12 +23,12 @@ code {
   --color-red: #e76f51;
 }
 
-.no-colour {
+.dark-mode {
   --color-darkblue: #000000;
-  --color-orange: #333333;
-  --color-lightgreen: #666666;
+  --color-lightgreen: #244372;
   --color-yellow: #ffffff;
-  --color-red: #cfdedf;
+  --color-orange: #207b99;
+  --color-red: #00ffc8;
 }
 
 .emoji {
@@ -228,9 +228,14 @@ a, a:hover, a:link, a:active, a:visited {
 .colour-switch-container {
   top: 1rem;
   right: 1rem;
-  cursor: pointer;
   position: absolute;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+.colour-switch-text {
+  user-select: none;
+  position: absolute;
+  right: 0;
 }
 
 .colour-switch-background {
@@ -241,6 +246,9 @@ a, a:hover, a:link, a:active, a:visited {
   background-color: var(--color-yellow);
   position: relative;
   margin-left: 3rem;
+  cursor: pointer;
+  top: 1.5rem;
+  right: 0.5rem;
 }
 
 .colour-switch-toggle {
@@ -249,6 +257,34 @@ a, a:hover, a:link, a:active, a:visited {
   border-radius: 50%;
   border: 2px solid var(--color-yellow);
   background-color: var(--color-orange);
+  cursor: pointer;
+}
+
+.off-text {
+  color: #848484;
+  position: absolute;
+  left: 5px;
+  font-size: 0.8rem;
+  top: 5px;
+  animation: appear 0.5s ease-in-out;
+}
+
+.on-text {
+  color: #848484;
+  position: absolute;
+  right: 8px;
+  font-size: 0.8rem;
+  top: 5px;
+  animation: appear 0.5s ease-in-out;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .toggle-left {
@@ -864,16 +900,16 @@ a, a:hover, a:link, a:active, a:visited {
   font-size: 1.2rem;
   font-weight: bolder;
   color: var(--color-yellow);
+  margin: 0 auto;
   margin-top: 2rem;
-  margin-left: 15vw;
-  margin-right: 15vw;
   margin-bottom: 1rem;
   background-color: var(--color-darkblue);
   padding: 5rem;
   padding-top: 4rem;
-  border-radius: 5%;
+  border-radius: 2rem;
   border: 5px solid var(--color-red);
   font-family: 'Josefin Sans', sans-serif;
+  min-width: 50rem;
 }
 
 .slide-in-from-left {

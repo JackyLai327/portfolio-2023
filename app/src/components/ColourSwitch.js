@@ -2,31 +2,33 @@ import React, { useEffect } from 'react';
 
 function ColourSwitch() {
 
-    const [colour, setColour] = React.useState(true);
+    const [darkMode, setDarkMode] = React.useState(false);
 
     useEffect(() => {
         // If no-colour is true, add no-colour class to body
-        if (localStorage.getItem("colour") === "false") {
-            document.body.classList.add("no-colour");
-            setColour(false);
-        } else if (localStorage.getItem("colour") === "true") {
-            document.body.classList.remove("no-colour");
-            setColour(true);
+        if (localStorage.getItem("dark-mode") === "true") {
+            document.body.classList.add("dark-mode");
+            setDarkMode(true);
+        } else if (localStorage.getItem("dark-mode") === "false") {
+            document.body.classList.remove("dark-mode");
+            setDarkMode(false);
         }
     }, []);
 
-    const handleColour = () => {
-        document.body.classList.toggle("no-colour");
-        setColour(!colour);
-        localStorage.setItem("colour", !colour);
+    const handleDarkMode = () => {
+        document.body.classList.toggle("dark-mode");
+        setDarkMode(!darkMode);
+        localStorage.setItem("dark-mode", !darkMode);
     }
 
     return(
         <>
             <div className="colour-switch-container">
-                <div style={{"userSelect": "none"}}>Toggle Colours</div>
-                <div className="colour-switch-background" onClick={handleColour}>
-                    <div className={colour ? "colour-switch-toggle toggle-left" : "colour-switch-toggle toggle-right"}></div>
+                <div className='colour-switch-text'>Dark Mode</div>
+                <div className="colour-switch-background" onClick={handleDarkMode}>
+                    <div className={darkMode ? "colour-switch-toggle toggle-left" : "colour-switch-toggle toggle-right"}></div>
+                    <div className={darkMode ? "on-text" : "d-none"}>ON</div>
+                    <div className={darkMode ? "d-none" : "off-text"}>OFF</div>
                 </div>
             </div>
         </>
