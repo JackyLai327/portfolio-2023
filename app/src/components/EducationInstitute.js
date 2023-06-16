@@ -8,7 +8,8 @@ function EducationInstitute(props) {
                 <span className="education-name">{props.instituteName}</span>
             </div>
             <div className="education-section">
-                <div className="education-degree"><span className="emoji">👨🏻‍🎓</span> {props.degree}
+                <div className="education-degree">
+                    <span className="emoji">👨🏻‍🎓</span> {props.degree}
                     <span className="education-duration">[ {props.duration} ]</span>
                     <span className="education-gpa">GPA: {props.gpa}</span>
                 </div>
