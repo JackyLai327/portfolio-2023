@@ -24,8 +24,8 @@ function Home() {
             <span className='text-parenthesis-color'>)</span>
           </div>
           <span className={foundEasterEgg ? "egg-found" : "d-none"}>🥚 World says hi! 🤍</span>
-          <div>My name is Yu-Cheng Lai</div>
-          <div>I'm an IT student at RMIT</div>
+          <div className='home-greeting'>Yu-Cheng Lai</div>
+          <div className='home-greeting'>IT Graduate from RMIT</div>
         </div>
       </div>
       
@@ -52,7 +52,7 @@ function Home() {
         </div>
       </div>
 
-      <AnimatedShape shape='bouncing-circle' size='.5rem' top='15.8rem' left='31.5rem'/>
+      <AnimatedShape shape='bouncing-circle' size='.5rem' top='15.8rem' left='30.5rem'/>
       
       <div className='infinite-dotted-line'></div>
       
