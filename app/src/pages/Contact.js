@@ -5,7 +5,7 @@ import ColourSwitch from "../components/ColourSwitch";
 import { 
     githubDarkblue, githubYellow, emailDarkblue, emailYellow,
     linkedinDarkblue, linkedinYellow, instagramDarkblue, instagramYellow,
-    facebookDarkblue, facebookYellow, resumeDarkblue, resumeYellow
+    threadsDarkblue, threadsYellow, resumeDarkblue, resumeYellow
 } from "../resources/images";
 import resume from "../resources/resume.pdf";
 
@@ -26,15 +26,6 @@ function Contact() {
             
             {/* Social Medias */}
             <div className="socials">
-                
-                {/* Email */}
-                <ContactCard 
-                    icon={emailYellow}
-                    iconHovered={emailDarkblue}
-                    title="Email"
-                    detail="jackylai327@gmail.com"
-                    link="mailto:jackylai327@gmail.com"
-                />
 
                 {/* GitHub */}
                 <ContactCard 
@@ -54,6 +45,15 @@ function Contact() {
                     link="https://www.linkedin.com/in/yu-cheng-jacky-lai/"
                 />
 
+                {/* Email */}
+                <ContactCard 
+                    icon={emailYellow}
+                    iconHovered={emailDarkblue}
+                    title="Email"
+                    detail="jackylai327@gmail.com"
+                    link="mailto:jackylai327@gmail.com"
+                />
+
                 {/* Instagram */}
                 <ContactCard 
                     icon={instagramYellow}
@@ -63,13 +63,13 @@ function Contact() {
                     link="https://www.instagram.com/jacky_lai.327/"
                 />
 
-                {/* Facebook */}
+                {/* Threads */}
                 <ContactCard 
-                    icon={facebookYellow}
-                    iconHovered={facebookDarkblue}
-                    title="Facebook"
+                    icon={threadsYellow}
+                    iconHovered={threadsDarkblue}
+                    title="Threads"
                     detail="Jacky Lai"
-                    link="https://www.facebook.com/jacky.0327.lai"
+                    link="https://www.threads.net/@jacky_lai.327"
                 />
 
                 {/* Resume */}

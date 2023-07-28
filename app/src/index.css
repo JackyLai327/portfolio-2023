@@ -20,6 +20,7 @@ code {
   --color-highlight: #a4efe0;
   --color-dark: #0d645a;
   --color-emphasis: #9ec5ec;
+  --color-highlight-trans: #a4efe086;
 }
 
 .dark-mode {
@@ -97,11 +98,11 @@ a, a:hover, a:link, a:active, a:visited {
 
 .heading-parameter {
   cursor: pointer;
-  text-decoration: underline dotted emphasis;
+  text-decoration: underline dotted red;
 }
 
 .heading-parameter-selected {
-  text-decoration: underline solid emphasis;
+  text-decoration: underline solid red;
 }
 
 .heading-parameter:hover {
@@ -1096,6 +1097,23 @@ transform: rotate(-15deg) translate(-20%, -10%);
 .education-duration {
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+.education-skills, .education-awards, .education-clubs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content:space-around;
+  margin-top: 2rem;
+}
+
+.skill img {
+  max-width: 7rem;
+  z-index: 1000000;
+}
+
+.skill:hover {
+  transform: scale(1.2);
 }
 
 /* footer stuff */

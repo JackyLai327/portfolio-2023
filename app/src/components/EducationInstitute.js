@@ -1,6 +1,9 @@
-
-
 function EducationInstitute(props) {
+
+    var skillsAcquired = props.skillsAcquired;
+    var awards = props.awards;
+    var extracurricular = props.extracurricular;
+
     return (
         <>
             <div className="education-logo">
@@ -13,25 +16,34 @@ function EducationInstitute(props) {
                     <span className="education-duration">[ {props.duration} ]</span>
                     <span className="education-gpa">GPA: {props.gpa}</span>
                 </div>
+
                 <hr />
-                <div className="education-classes">
-                    <div>Notable Classes</div>
-                    <div dangerouslySetInnerHTML={{__html: props.notableClasses}}></div>
-                </div>
-                <hr />
+
+                <div>Skills Acquired</div>
                 <div className="education-skills">
-                    <div>Skills Acquired</div>
-                    <div dangerouslySetInnerHTML={{__html: props.skillsAcquired}}></div>
+                    {skillsAcquired.map((skill, index) => (
+                        <div key={index} className="skill">
+                            <img src={skill} alt="skill icon" />
+                        </div>
+                    ))}
                 </div>
+
                 <hr />
+
+                <div>Awards</div>
                 <div className="education-awards">
-                    <div>Awards</div>
-                    <div dangerouslySetInnerHTML={{__html: props.awards}}></div>
+                    {awards.map((skill, index) => (
+                        <div key={index}>{skill}</div>
+                    ))}
                 </div>
+
                 <hr />
+
+                <div>Extracurricular</div>
                 <div className="education-clubs">
-                    <div>Extracurricular</div>
-                    <div dangerouslySetInnerHTML={{__html: props.extracurricular}}></div>
+                    {extracurricular.map((skill, index) => (
+                        <div key={index}>{skill}</div>
+                    ))}
                 </div>
             </div>
         </>
