@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router
 
 function AppRouter() {
     return (
-        <Router basename='/jackylai327.github.io/portfolio-2023/'>
+        <Router basename='/portfolio-2023/'>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/education/" element={<Education />} />
