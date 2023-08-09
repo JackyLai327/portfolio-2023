@@ -7,7 +7,7 @@ import {
     linkedinDarkblue, linkedinYellow, instagramDarkblue, instagramYellow,
     threadsDarkblue, threadsYellow, resumeDarkblue, resumeYellow
 } from "../resources/images";
-import resume from "../resources/resume.pdf";
+import { resume } from "../resources/PDFs"
 
 function Contact() {
 

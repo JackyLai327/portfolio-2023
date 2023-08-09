@@ -1,7 +1,7 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import ExperienceSection from "../components/ExperienceSection";
-import { dcardIcon } from "../resources/images";
+import { dcardIcon, museSceneLab } from "../resources/images";
 import ColourSwitch from "../components/ColourSwitch";
 
 function Experience() {
@@ -20,21 +20,19 @@ function Experience() {
             <div className="timeline-top"></div>
             
             <ExperienceSection 
-                title="Production QA Intern"
-                company="Dcard"
-                companyLink="https://www.dcard.tw/"
-                companyLogo={dcardIcon}
+                title="Web Dev Placement"
+                company="Muse Scene Lab"
+                companyLink="https://musescenelab.com/"
+                companyLogo={museSceneLab}
                 summary={`
                     <ul>
-                        <li>Dcard is an online forum application that has 18 million active users every month</li>
-                        <li>Main contributor to localise the Dcard app into the English version</li>
-                        <li>Assured APIs sent from client side are exactly as written in specification</li>
-                        <li>Tested for potential hidden user errors and bugs</li>
-                        <li>Tools used: Lokalise, SurfShark</li>
+                        <li>Muse Scene Lab is dedicated to creating VR/XR/AR and online platform for music learners and rehearsals</li>
+                        <li>Developing a web application for music learners to learn and practice music online</li>
+                        <li>Project is ongoing</li>
                     </ul>
                 `}
-                date="Oct 2021 - Feb 2022"
-                location="Taipei, Taiwan"
+                date="Jul 2023 - Current"
+                location="Madrid, Spain"
             />
 
             <ExperienceSection 
@@ -44,29 +42,9 @@ function Experience() {
                 companyLogo={dcardIcon}
                 summary={`
                     <ul>
-                        <li>Dcard is an online forum application that has 18 million active users every month</li>
                         <li>Main contributor to localise the Dcard app into the English version</li>
                         <li>Assured APIs sent from client side are exactly as written in specification</li>
                         <li>Tested for potential hidden user errors and bugs</li>
-                        <li>Tools used: Lokalise, SurfShark</li>
-                    </ul>
-                `}
-                date="Oct 2021 - Feb 2022"
-                location="Taipei, Taiwan"
-            />
-
-            <ExperienceSection 
-                title="Production QA Intern"
-                company="Dcard"
-                companyLink="https://www.dcard.tw/"
-                companyLogo={dcardIcon}
-                summary={`
-                    <ul>
-                        <li>Dcard is an online forum application that has 18 million active users every month</li>
-                        <li>Main contributor to localise the Dcard app into the English version</li>
-                        <li>Assured APIs sent from client side are exactly as written in specification</li>
-                        <li>Tested for potential hidden user errors and bugs</li>
-                        <li>Tools used: Lokalise, SurfShark</li>
                     </ul>
                 `}
                 date="Oct 2021 - Feb 2022"

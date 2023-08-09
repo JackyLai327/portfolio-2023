@@ -1,9 +1,14 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import EducationInstitute from "../components/EducationInstitute";
-import { RMITLogo, python, react, nodejs } from "../resources/images";
+import { RMITLogo, python, react, nodejs,
+        aws, java, git, cicd, cpp, terraform, php, sql, ica,
+        communication, leadership, multitasking, research,
+        problemSolving, teamwork, timeManagement,
+        chamberOrchestra, drumKit, marketEspresso,
+        piano, tedx, acting, vibraphone } from "../resources/images";
 import { scholarship, peerMentor2022s1, peerMentor2022s2,
-          peerMentor2023s1 } from "../resources/PDFs";
+          peerMentor2023s1, apaward, actingCompetition } from "../resources/PDFs";
 import React from "react";
 import ColourSwitch from "../components/ColourSwitch";
 
@@ -50,24 +55,25 @@ function Education() {
             instituteName="RMIT University"
             degree="Bachelor of Information Technology"
             duration="2021 - 2023"
-            skillsAcquired={[react, nodejs, python]}
+            skillsAcquired={[react, nodejs, python, aws, java, git, cicd, cpp, terraform, php, sql]}
             awards={[scholarship, peerMentor2022s1, peerMentor2022s2, peerMentor2023s1]}
             gpa="3.4"
-            extracurricular={[]}
+            extracurricular={[chamberOrchestra, marketEspresso]}
           />
         </div>
 
         {/* Ivy Collegiate Academy */}
         <div className={instituteSelected === "ICA" ? "education-institute slide-in-from-right" : "d-none"}>
           <EducationInstitute 
-            instituteLogo={RMITLogo}
-            instituteName="RMIT University"
-            degree="Bachelor of Information Technology"
-            duration="2021 - 2023"
-            skillsAcquired={[]}
-            awards={[]}
+            instituteLogo={ica}
+            instituteName="Ivy Collegiate Academy"
+            degree="High School Diploma"
+            duration="2015 - 2018"
+            skillsAcquired={[communication, leadership, multitasking, research,
+              problemSolving, teamwork, timeManagement]}
+            awards={[apaward, actingCompetition]}
             gpa="4.0"
-            extracurricular={[]}
+            extracurricular={[drumKit, piano, vibraphone, tedx, acting]}
           />
         </div>
           

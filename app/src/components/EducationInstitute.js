@@ -28,9 +28,9 @@ function EducationInstitute(props) {
                 <hr />
 
                 <div>Skills Acquired</div>
-                <div className="education-skills">
+                <div className="education-skills" onMouseEnter={()=>handleSkillHover(true)} onMouseLeave={()=>handleSkillHover(false)}>
                     {skillsAcquired.map((skill, index) => (
-                        <div key={index} className="skill" onMouseEnter={()=>handleSkillHover(true)} onMouseLeave={()=>handleSkillHover(false)}>
+                        <div key={index} className="skill" >
                             <img src={skill} alt="skill icon" />
                             <div className={skillHovered ? "skill-mask" : "collapse"}>{skill.toString().split(".")[0].split("/").pop()}</div> 
                         </div>
@@ -39,7 +39,7 @@ function EducationInstitute(props) {
 
                 <hr />
 
-                <div>Awards (tap to open file)</div>
+                <div>Awards / Certificates (tap to open file)</div>
                 <div className="education-awards">
                     {awards.map((award, index) => (
                         <div key={index} className='award'>
@@ -52,11 +52,21 @@ function EducationInstitute(props) {
 
                 <div>Extracurricular</div>
                 <div className="education-skills">
-                    {clubs.map((club, index) => (
-                        <div key={index} className="club" onMouseEnter={()=>handleSkillHover(true)} onMouseLeave={()=>handleSkillHover(false)}>
-                            <img src={club} alt="club image" />
-                            <div className={skillHovered ? "club-mask" : "collapse"}>{club.toString().split(".")[0].split("/").pop()}</div> 
-                        </div>
+                    {clubs[0].substring(clubs[0].length - 3) === "mp4" ? null :
+                        clubs.map((club, index) => (
+                            <div key={index} className="club" onMouseEnter={()=>handleSkillHover(true)} onMouseLeave={()=>handleSkillHover(false)}>
+                                <img src={club} alt="club" />
+                                <div className={skillHovered ? "club-mask" : "collapse"}>{club.toString().split(".")[0].split("/").pop()}</div> 
+                            </div>
+                    ))}
+                    {clubs[0].substring(clubs[0].length - 3) !== "mp4" ? null :
+                        clubs.map((club, index) => (
+                            <div key={index} className="club" onMouseEnter={()=>handleSkillHover(true)} onMouseLeave={()=>handleSkillHover(false)}>
+                                <video autoPlay loop muted>
+                                    <source src={club} type="video/mp4" />
+                                </video>
+                                <div className={skillHovered ? "club-mask" : "collapse"}>{club.toString().split(".")[0].split("/").pop()}</div> 
+                            </div>
                     ))}
                 </div>
             </div>

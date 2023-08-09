@@ -733,7 +733,7 @@ a, a:hover, a:link, a:active, a:visited {
   font-size: 1.5rem;
   font-weight: bolder;
   color: var(--color-text);
-  margin-left: 12vw;
+  margin-left: 10vw;
   margin-top: 1rem;
 }
 
@@ -780,28 +780,6 @@ a, a:hover, a:link, a:active, a:visited {
   font-weight: bolder;
 }
 
-.experience-location::before {
-  content: "";
-  background-color: red;
-  width: 1.25rem;
-  height: 1.25rem;
-  position: absolute;
-  margin-left: -2rem;
-  margin-top: -1rem;
-  border-radius: 50%;
-  border: 2px solid var(--color-dark);
-}
-
-.experience-location::after {
-  content: "";
-  background-color: var(--color-dark);
-  width: 2px;
-  height: 2rem;
-  position: absolute;
-  margin-left: -10.9rem;
-  margin-top: .1rem;
-}
-
 .experience-date {
   font-size: 1.5rem;
   font-weight: bolder;
@@ -815,9 +793,17 @@ a, a:hover, a:link, a:active, a:visited {
 .experience-logo img{
   width: 32.5vw;
   margin-left: calc(50% - 16.25vw);
-  margin-top: -50.5rem;
+  margin-top: -37rem;
   padding: 2rem;
   max-width: 30rem;
+  z-index: 999999;
+}
+
+@media screen and (min-width: 1100px) {
+  .experience-logo img {
+    margin-top: -30rem;
+  }
+  
 }
 
 /* education stuff */
@@ -893,7 +879,7 @@ a, a:hover, a:link, a:active, a:visited {
   border-radius: 2rem;
   border: 5px solid var(--color-highlight);
   font-family: 'Josefin Sans', sans-serif;
-  min-width: 50rem;
+  max-width: 70%;
 }
 
 .slide-in-from-left {
@@ -944,23 +930,41 @@ a, a:hover, a:link, a:active, a:visited {
 .education-skills, .education-awards, .education-clubs {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  justify-content:space-around;
+  gap: 2.5rem;
+  justify-content: space-around;
   margin-top: 2rem;
 }
 
 .skill img {
-  max-width: 7rem;
-  z-index: 1000000;
+  max-width: 8rem;
+  margin: 0 auto;
+  transform: scale(0.8) translate(-.5rem, .5rem);
 }
 
-.skill:hover, .award:hover {
+.club img {
+  border-radius: 25%;
+  width: 10rem;
+}
+
+.club video {
+  border-radius: 2rem;
+  max-width: 15rem;
+}
+
+.skill, .award, .club {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.skill:hover, .award:hover, .club:hover {
   animation: enlarge 0.25s ease-in-out;
   transform: scale(1.25);
+  margin: 0 auto;
 }
 
-.skill, .award {
+.skill, .award, .club {
   animation: shrink 0.25s ease-in-out;
+  margin: 0 auto;
 }
 
 @keyframes enlarge {
@@ -1006,6 +1010,7 @@ a, a:hover, a:link, a:active, a:visited {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.1rem;
   gap: .5rem;
+  margin-top: 2rem;
 }
 
 .dark-mode .footer  {
