@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "svelte-reveal": "^0.7.0"
   }
 }
