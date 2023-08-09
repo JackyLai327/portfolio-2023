@@ -459,7 +459,7 @@ a, a:hover, a:link, a:active, a:visited {
 /* collapsed */
 .project-card-collapsed {
   width: 20vw;
-  border: 5px solid var(--color-light);
+  border: 2px solid var(--color-light);
   border-radius: 1rem;
   background-color: var(--color-highlight);
   box-shadow: 0 0 0 5px var(--color-highlight);
@@ -524,7 +524,7 @@ a, a:hover, a:link, a:active, a:visited {
 .project-card-expanded {
   width: 33vw;
   color: var(--color-text);
-  border: 5px solid white;
+  border: 2px solid white;
   border-radius: 1rem;
   background-color: var(--color-highlight);
   box-shadow: 0 0 10px 5px var(--color-highlight), inset 0 0 10px 5px var(--color-light);

@@ -44,7 +44,7 @@ function Experience() {
                     <ul>
                         <li>Main contributor to localise the Dcard app into the English version</li>
                         <li>Assured APIs sent from client side are exactly as written in specification</li>
-                        <li>Tested for potential hidden user errors and bugs</li>
+                        <li>Tested for potential hidden errors and bugs</li>
                     </ul>
                 `}
                 date="Oct 2021 - Feb 2022"

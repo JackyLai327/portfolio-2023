@@ -3,7 +3,19 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
 import { 
-  webGameDevThumbnail, questionMark 
+  webGameDevThumbnail, questionMark, joyaki1, joyaki2, afterhours1, 
+  afterhours2,
+  lan1,
+  lan2,
+  lan3,
+  cicd,
+  cicd1,
+  cicd2,
+  canva,
+  unichatLogo,
+  unichat1,
+  unichat2,
+  unichat3
 } from "../resources/images";
 import ColourSwitch from "../components/ColourSwitch";
 
@@ -49,80 +61,112 @@ function Projects() {
         {/* Group Projects */}
         <div className={parameterSelected === "self" || parameterSelected === null ? "hide-project" : "display-project"}>
           <ProjectCard 
-            title="Web Game Development" 
+            title="After Hours" 
             thumbnail={webGameDevThumbnail} 
-            description="Group Project at RMIT" 
+            description="Game-Boy-Style Game Prototype" 
             date="2021"
             summary={`
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Led the team to brainstorm and build the project with an outstanding outcome/feedback amonst the course</li>
+                <li>Designed and implemented a playable gameboy-style game on website for both mobile and PC devices</li>
+                <li>Implemented gaming AI bots that attack the player with different attack logic</li>
               </ul>
             `}
             websiteLink="https://jackylai327.github.io/iit_a3_repo/tools_tech_test.html"
             githubLink="https://jackylai327.github.io/iit_a3_repo/game01/build/web/index.html"
-            previews={[webGameDevThumbnail, questionMark]}
+            previews={[webGameDevThumbnail, afterhours1, afterhours2]}
+          />
+        </div>
+
+        <div className={parameterSelected === "self" || parameterSelected === null ? "hide-project" : "display-project"}>
+          <ProjectCard 
+            title="Joyaki" 
+            thumbnail={joyaki1} 
+            description="Flappy Bird Inspired Python Game" 
+            date="Aug 2021 - Sep 2021"
+            summary={`
+              <ul>
+                <li>Led to team to complete the project from scratch</li>
+                <li>Lead developer and meeting organiser</li>
+                <li>Created a boss fight for after a certain goal is achieved</li>
+              </ul>
+            `}
+            githubLink="https://github.com/JackyLai327/joyaki-wesite"
+            websiteLink="https://jackylai327.github.io/joyaki-wesite/about_us.html"
+            previews={[joyaki1, joyaki2]}
           />
         </div>
 
         {/* Individual Projects */}
         <div className={parameterSelected === "team" || parameterSelected === null ? "hide-project" : "display-project"}>
           <ProjectCard 
-            title="Twitter Inspired React/Node App" 
-            // thumbnail={} 
-            description="Full Stack Dev Web App" 
+            title="UniChat" 
+            thumbnail={unichatLogo} 
+            description="Online Forum iOS App for Australian Uni Students" 
+            date="Aug 2023 - Current"
+            summary={`
+              <ul>
+                <li>Designing, developing and deploying the app from scratch
+                <li>This is an ongoing project</li>
+              </ul>
+            `}
+            previews={[unichatLogo, unichat1, unichat2, unichat3]}
+          />
+        </div>
+
+        <div className={parameterSelected === "team" || parameterSelected === null ? "hide-project" : "display-project"}>
+          <ProjectCard 
+            title="Loop Agile Now" 
+            thumbnail={lan1} 
+            description="Twitter Inspired Node/React Web App" 
             date="Apr 2022 - Jun 2022"
             summary={`
               <ul>
                 <li>Tools: React, Node, Express, Axios, Sequelize, MySQL2, Fastify</li>
-                <li>Individually developed the entire application for RMIT’s Fullstack Programming course</li>
-                <li>Was one of the most outstanding projects in class</li>
-                <li>Implemented database for user to post and comment on each other’s posts</li>
+                <li>Included most twitter functionalities along with text/post styling when posting texts and images</li>
+                <li>Implemented with several libraries including React, Node, Bootstrap, Express, Axios and Sequelize</li>
+                <li>Received outstanding outcomes and graded as one of the top projects amongst the course</li>
               </ul>
             `}
             githubLink="https://github.com/JackyLai327/Twitter-Inspired-React-Node-App"
-            // previews={}
+            previews={[lan1, lan2, lan3]}
           />
         </div>
 
-        {/* Empty Card (individual) */}
         <div className={parameterSelected === "team" || parameterSelected === null ? "hide-project" : "display-project"}>
           <ProjectCard 
-            title="" 
-            // thumbnail={} 
-            description="" 
-            date=""
+            title="CI/CD Deployment Project" 
+            thumbnail={cicd} 
+            description="Automated Deployment Project with GitHub Actions" 
+            date="Mar 2023"
             summary={`
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Linted, tested, and generated a deployable artefact for a small web application</li>
+                <li>Wrote a YAML CI pipeline to incorporate GitHub Actions with Node.js, PlayWright, Jest, Docker and MongoDB</li>
+                <li>Integrated automation with linting, unit testing, component testing, E2E testing, and deployment with CI/CD</li>
               </ul>
             `}
-            githubLink=""
-            websiteLink=""
-            // previews={}
+            githubLink="https://github.com/JackyLai327/CI-CD-deployment-project-for-devops-course"
+            previews={[cicd1, cicd2]}
           />
         </div>
 
-        {/* Empty Card (group) */}
-        <div className={parameterSelected === "self" || parameterSelected === null ? "hide-project" : "display-project"}>
+        <div className={parameterSelected === "team" || parameterSelected === null ? "hide-project" : "display-project"}>
           <ProjectCard 
-            title="" 
-            // thumbnail={} 
-            description="" 
-            date=""
+            title="Canva Inspired Software" 
+            thumbnail={canva} 
+            description="Canva Inspired Java GUI Application" 
+            date="Apr 2022 - Jun 2022"
             summary={`
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Built with Java UI library JavaFX and Scene Builder</li>
+                <li>Nominated as one of the projects with the highest completeness of program amongst the course</li>
+                <li>Implemented with MVC structure, the S.O.L.I.D. principles of programming and a database system for user to
+                save the canva that allows shapes, texts and colours using drag and drop</li>
               </ul>
             `}
-            githubLink=""
-            websiteLink=""
-            // previews={}
+            githubLink="https://github.com/JackyLai327/canva-app"
+            previews={[canva]}
           />
         </div>
 
