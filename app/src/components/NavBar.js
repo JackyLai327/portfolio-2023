@@ -20,7 +20,7 @@ function NavBar() {
                 <div className={location === "/" ? "nav-bar-item user-location" : "nav-bar-item"}><a href="/portfolio-2023/">Home</a></div>
                 <div className={location === "/portfolio-2023/education/" || location === "/portfolio-2023/experience/" || location === "/portfolio-2023/projects/" ? "nav-bar-item about-btn user-location" : "nav-bar-item about-btn"} onMouseEnter={handleNavOpen}>About</div>
                 <div className={navOpen === true ? "nav-bar-item nav-bar-open" : "nav-bar-closed"}><a href="/portfolio-2023/education/">Education</a></div>
-                <Link to="/portfolio-2023/experience/"><div className={navOpen === true ? "nav-bar-item nav-bar-open" : "nav-bar-closed"}>Experience</div></Link>
+                <Link to="/experience/"><div className={navOpen === true ? "nav-bar-item nav-bar-open" : "nav-bar-closed"}>Experience</div></Link>
                 {/* <div className={navOpen === true ? "nav-bar-item nav-bar-open" : "nav-bar-closed"}><a href="/portfolio-2023/experience/">Experience</a></div> */}
                 <div className={navOpen === true ? "nav-bar-item nav-bar-open" : "nav-bar-closed"}><a href="/portfolio-2023/projects/">Projects</a></div>
                 <div className={navOpen === true ? "nav-bar-item contact-pushed" : "nav-bar-item contact-back"}><a className = {location === "/portfolio-2023/contact/" ? "user-location" : ''} href="/portfolio-2023/contact/">Contact</a></div>
