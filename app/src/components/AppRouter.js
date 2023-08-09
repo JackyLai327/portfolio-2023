@@ -10,11 +10,11 @@ function AppRouter() {
     return (
         <Router basename='/portfolio-2023/'>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/education" element={<Education />} />
-                <Route path="/experience" element={<Experience />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contact" element={<Contact />} />
+                <Route basename='/portfolio-2023/' path="/" element={<Home />} />
+                <Route basename='/portfolio-2023/' path="/education" element={<Education />} />
+                <Route basename='/portfolio-2023/' path="/experience" element={<Experience />} />
+                <Route basename='/portfolio-2023/' path="/projects" element={<Projects />} />
+                <Route basename='/portfolio-2023/' path="/contact" element={<Contact />} />
             </Routes>
         </Router>
     )
