@@ -125,7 +125,7 @@ a, a:hover, a:link, a:active, a:visited {
   z-index: 1000;
 }
 
-.nav-bar-item Link:hover {
+.nav-bar-item a:hover {
   color: var(--color-highlight);
   text-shadow: var(--color-highlight) 0px 0px 10px;
 }
@@ -143,13 +143,13 @@ a, a:hover, a:link, a:active, a:visited {
 }
 
 /* nav bar animation */
-.nav-bar-open, .nav-bar-open Link {
+.nav-bar-open, .nav-bar-open a {
   animation: slide-in 0.5s ease-in-out;
   color: var(--color-dark);
 }
 
 
-.nav-bar-closed, .nav-bar-closed Link {
+.nav-bar-closed, .nav-bar-closed a {
   color: transparent;
   position: absolute;
   left: 6rem;
