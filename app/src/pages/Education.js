@@ -2,6 +2,8 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import EducationInstitute from "../components/EducationInstitute";
 import { RMITLogo, python, react, nodejs } from "../resources/images";
+import { scholarship, peerMentor2022s1, peerMentor2022s2,
+          peerMentor2023s1 } from "../resources/PDFs";
 import React from "react";
 import ColourSwitch from "../components/ColourSwitch";
 
@@ -49,8 +51,8 @@ function Education() {
             degree="Bachelor of Information Technology"
             duration="2021 - 2023"
             skillsAcquired={[react, nodejs, python]}
-            awards={[]}
-            gpa="4.0"
+            awards={[scholarship, peerMentor2022s1, peerMentor2022s2, peerMentor2023s1]}
+            gpa="3.4"
             extracurricular={[]}
           />
         </div>

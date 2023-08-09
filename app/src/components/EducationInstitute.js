@@ -4,7 +4,7 @@ function EducationInstitute(props) {
 
     var skillsAcquired = props.skillsAcquired;
     var awards = props.awards;
-    var extracurricular = props.extracurricular;
+    var clubs = props.extracurricular;
 
     const [skillHovered, setSkillHovered] = useState(false);
 
@@ -39,19 +39,24 @@ function EducationInstitute(props) {
 
                 <hr />
 
-                <div>Awards</div>
+                <div>Awards (tap to open file)</div>
                 <div className="education-awards">
-                    {awards.map((skill, index) => (
-                        <div key={index}>{skill}</div>
+                    {awards.map((award, index) => (
+                        <div key={index} className='award'>
+                            <a href={award} target="_blank" rel="noreferrer">{award.toString().split(".")[0].split("/").pop()}</a>
+                        </div>
                     ))}
                 </div>
 
                 <hr />
 
                 <div>Extracurricular</div>
-                <div className="education-clubs">
-                    {extracurricular.map((skill, index) => (
-                        <div key={index}>{skill}</div>
+                <div className="education-skills">
+                    {clubs.map((club, index) => (
+                        <div key={index} className="club" onMouseEnter={()=>handleSkillHover(true)} onMouseLeave={()=>handleSkillHover(false)}>
+                            <img src={club} alt="club image" />
+                            <div className={skillHovered ? "club-mask" : "collapse"}>{club.toString().split(".")[0].split("/").pop()}</div> 
+                        </div>
                     ))}
                 </div>
             </div>
