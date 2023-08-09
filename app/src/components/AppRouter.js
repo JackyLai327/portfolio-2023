@@ -10,7 +10,6 @@ import NavBar from './NavBar';
 function AppRouter() {
     return (
         <Router>
-            <NavBar />
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/education/" element={<Education />} />
