@@ -58,4 +58,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
       - name: Run react
-        run: npm run deploy
+        run: npm run deploy --prefix app
