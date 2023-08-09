@@ -34,23 +34,9 @@ function Home() {
 
       <ColourSwitch />
 
-      <div className='polaroid-stack'>
         <div className="polaroid-container polaroid-1">
-            <div className="polaroid-image"><img src={profilePicFormal} alt="polaroid-image" /></div>
+            <div className="pfp"><img src={profilePicFormal} alt="profile-image" /></div>
         </div>
-        <div className="polaroid-container polaroid-2">
-            <div className="polaroid-image"><img src={profilePicFormal} alt="polaroid-image" /></div>
-        </div>
-        <div className="polaroid-container polaroid-3">
-            <div className="polaroid-image"><img src={profilePicFormal} alt="polaroid-image" /></div>
-        </div>
-        <div className="polaroid-container polaroid-4">
-            <div className="polaroid-image"><img src={profilePicFormal} alt="polaroid-image" /></div>
-        </div>
-        <div className="polaroid-container polaroid-5">
-            <div className="polaroid-image"><img src={profilePicFormal} alt="polaroid-image" /></div>
-        </div>
-      </div>
 
       <AnimatedShape shape='bouncing-circle' size='.5rem' top='15.8rem' left='30.5rem'/>
       

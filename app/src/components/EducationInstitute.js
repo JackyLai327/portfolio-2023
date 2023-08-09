@@ -1,8 +1,16 @@
+import React, { useState } from 'react';
+
 function EducationInstitute(props) {
 
     var skillsAcquired = props.skillsAcquired;
     var awards = props.awards;
     var extracurricular = props.extracurricular;
+
+    const [skillHovered, setSkillHovered] = useState(false);
+
+    const handleSkillHover = (boolVal) => {
+        setSkillHovered(boolVal);
+    }
 
     return (
         <>
@@ -22,8 +30,9 @@ function EducationInstitute(props) {
                 <div>Skills Acquired</div>
                 <div className="education-skills">
                     {skillsAcquired.map((skill, index) => (
-                        <div key={index} className="skill">
+                        <div key={index} className="skill" onMouseEnter={()=>handleSkillHover(true)} onMouseLeave={()=>handleSkillHover(false)}>
                             <img src={skill} alt="skill icon" />
+                            <div className={skillHovered ? "skill-mask" : "collapse"}>{skill.toString().split(".")[0].split("/").pop()}</div> 
                         </div>
                     ))}
                 </div>
