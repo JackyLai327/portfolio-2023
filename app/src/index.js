@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AppRouter from './components/AppRouter';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter basename="/portfolio-2023">
     <React.StrictMode>
-      <AppRouter />
+      <App />
     </React.StrictMode>
   </BrowserRouter>
 );
