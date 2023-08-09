@@ -2,15 +2,13 @@
 # React-App
 
 ## Project description
-- TO BE UPDATED
+- My personal portfolio
+- Will be updated
 ## Library Used
 - React.js
 - built with `npx create-react-app`
 - [react-reveal](https://www.npmjs.com/package/react-reveal?activeTab=readme)
-## How and install and run
-- TO BE UPDATED
-## How to run unit testing
-- No unit testing atm.
+- [bootstrap](https://getbootstrap.com/)
 ## Credits or references
 - <a href="https://www.flaticon.com/free-icons/question-mark" title="question mark icons">Question mark icons created by Freepik - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
