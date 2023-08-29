@@ -34,9 +34,19 @@ function Home() {
 
       <ColourSwitch />
 
-        <div className="polaroid-container polaroid-1">
-            <div className="pfp"><img src={profilePicFormal} alt="profile-image" /></div>
-        </div>
+      <div className='json-summary'>
+        [&#123; <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;"name": "Yu-Cheng Lai", <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;"age": 23, <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;"location": "Melbourne, Australia", <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;"education": "RMIT University", <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;"personality": "ENFJ-A" <br />
+        &#125;]
+      </div>
+
+      <div className="polaroid-container polaroid-1">
+          <div className="pfp"><img src={profilePicFormal} alt="profile-image" /></div>
+      </div>
 
       <AnimatedShape shape='bouncing-circle' size='.5rem' top='15.8rem' left='30.5rem'/>
       

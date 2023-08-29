@@ -28,3 +28,4 @@
 - <a href="https://www.flaticon.com/free-icons/research" title="research icons">Research icons created by Flat Icons - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/leadership" title="leadership icons">Leadership icons created by Becris - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/collaboration" title="collaboration icons">Collaboration icons created by Freepik - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/computer" title="computer icons">Computer icons created by Freepik - Flaticon</a>

@@ -26,9 +26,9 @@ function ColourSwitch() {
             <div className="colour-switch-container">
                 <div className='colour-switch-text'>Dark Mode</div>
                 <div className="colour-switch-background" onClick={handleDarkMode}>
-                    <div className={darkMode ? "colour-switch-toggle toggle-left" : "colour-switch-toggle toggle-right"}></div>
-                    <div className={darkMode ? "on-text" : "d-none"}>ON</div>
-                    <div className={darkMode ? "d-none" : "off-text"}>OFF</div>
+                    <div className={darkMode ? "colour-switch-toggle toggle-right" : "colour-switch-toggle toggle-left"}></div>
+                    <div className={!darkMode ? "off-text" : "d-none"}>OFF</div>
+                    <div className={!darkMode ? "d-none" : "on-text"}>ON</div>
                 </div>
             </div>
         </>

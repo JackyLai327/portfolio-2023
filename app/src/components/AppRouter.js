@@ -5,11 +5,12 @@ import Experience from '../pages/Experience';
 import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from './NavBar';
+import { hacker } from '../resources/images';
 
 function AppRouter() {
     return (
         <Router>
+            <div className='page-cover'>Please view on a larger screen for the best experiences...<br /><img src={hacker} alt="hacker" /></div>
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/education/" element={<Education />} />
