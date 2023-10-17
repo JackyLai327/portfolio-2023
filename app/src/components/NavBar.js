@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 function NavBar() {
-    const location = window.location.pathname;
+    const location = window.location.href.split("/#")[1];
 
     const [navOpen, setNavOpen] = useState(false);
 
@@ -13,6 +12,7 @@ function NavBar() {
     const handleNavClose = () => {
         setNavOpen(false);
     }
+    console.log(location)
 
     return (
         <>
@@ -24,7 +24,14 @@ function NavBar() {
                 <div className={navOpen === true ? "nav-bar-item nav-bar-open" : "nav-bar-closed"}><a href="/portfolio-2023/#/projects/">Projects</a></div>
                 <div className={navOpen === true ? "nav-bar-item contact-pushed" : "nav-bar-item contact-back"}><a className = {location === "/contact/" ? "user-location" : ''} href="/portfolio-2023/#/contact/">Contact</a></div>
             </div>
+
+            <div className={location === "/" ? "show-breadcrumb" : "collapse"}>Yu-Cheng's Portfolio &gt; Home</div>
+            <div className={location === "/education/" ? "show-breadcrumb" : "collapse"}>Yu-Cheng's Portfolio &gt; About &gt; Education</div>
+            <div className={location === "/experience/" ? "show-breadcrumb" : "collapse"}>Yu-Cheng's Portfolio &gt; About &gt; Experience</div>
+            <div className={location === "/projects/" ? "show-breadcrumb" : "collapse"}>Yu-Cheng's Portfolio &gt; About &gt; Projects</div>
+            <div className={location === "/contact/" ? "show-breadcrumb" : "collapse"}>Yu-Cheng's Portfolio &gt; Contact</div>
             <div className={navOpen === true ? "nav-bar-underline-open" : "nav-bar-underline-closed"}></div>
+            
             <div className='line-across'></div>
         </>
     )

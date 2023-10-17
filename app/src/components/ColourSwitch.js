@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { moon, sun } from '../resources/images';
 
 function ColourSwitch() {
 
@@ -27,8 +28,8 @@ function ColourSwitch() {
                 <div className='colour-switch-text'>Dark Mode</div>
                 <div className="colour-switch-background" onClick={handleDarkMode}>
                     <div className={darkMode ? "colour-switch-toggle toggle-right" : "colour-switch-toggle toggle-left"}></div>
-                    <div className={!darkMode ? "off-text" : "d-none"}>OFF</div>
-                    <div className={!darkMode ? "d-none" : "on-text"}>ON</div>
+                    <div className={!darkMode ? "off-text" : "d-none"}><img src={sun} alt="sun" /></div>
+                    <div className={!darkMode ? "d-none" : "on-text"}><img src={moon} alt="moon" /></div>
                 </div>
             </div>
         </>

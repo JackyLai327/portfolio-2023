@@ -21,7 +21,7 @@ import ColourSwitch from "../components/ColourSwitch";
 
 function Projects() {
 
-  const [parameterSelected, setParameterSelected] = useState(null);
+  const [parameterSelected, setParameterSelected] = useState("self");
 
   const selectParameter = (parameter) => {
     setParameterSelected(parameter);
@@ -42,6 +42,7 @@ function Projects() {
         <span className={parameterSelected === "team" ? "heading-parameter-selected" : "heading-parameter"} onClick={() => selectParameter("team")}><button style={{"all": "unset"}}>team</button></span>
         <span className="text-parenthesis-color">)</span>
       </div>
+      <div className="parameter-hint">// Change parameters to view individual/team projects</div>
 
       <div className="project-collection">
 
