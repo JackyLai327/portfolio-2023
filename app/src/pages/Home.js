@@ -23,7 +23,7 @@ function Home() {
             <span className='text-string-color home-easter-egg' onClick={handleEasterEgg}><button style={{"all": "unset"}}>'Hello, World!'</button></span>
             <span className='text-parenthesis-color'>)</span>
           </div>
-          <span className={foundEasterEgg ? "egg-found" : "d-none"}>🥚 World says hi! 🤍</span>
+          <span className={foundEasterEgg ? "egg-found" : "d-none"}>🥚 World says hi! 🥚</span>
           <div className='home-greeting'>Yu-Cheng Lai</div>
           <div className='home-greeting'>IT Graduate from RMIT</div>
         </div>

@@ -64,3 +64,5 @@ export const unichat2 = require('../resources/unichat-2.png');
 export const unichat3 = require('../resources/unichat-3.png');
 export const unichatLogo = require('../resources/unichat-logo.png');
 export const hacker = require('../resources/hacker.png');
+export const swift = require('../resources/Swift.png');
+export const swiftUI = require('../resources/SwiftUI.png');

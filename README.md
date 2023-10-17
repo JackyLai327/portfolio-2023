@@ -3,7 +3,7 @@
 
 ## Project description
 - My personal portfolio
-- Will be updated
+- [Link to view the deployment](https://jackylai327.github.io/portfolio-2023/) 
 ## Library Used
 - React.js
 - built with `npx create-react-app`

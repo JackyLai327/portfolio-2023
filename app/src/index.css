@@ -729,7 +729,7 @@ a, a:hover, a:link, a:active, a:visited {
   position: absolute;
   background-color: var(--color-dark); 
   width: 2px;
-  height: 10vh;
+  height: 10rem;
   top: .7rem;
   left: .25rem;
 }
@@ -738,8 +738,8 @@ a, a:hover, a:link, a:active, a:visited {
   height: 15rem;
   border-left: 2px solid var(--color-dark);
   margin-left: 50%;
-  margin-top: -8.9rem;
-  margin-bottom: -4.6rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
 }
 
 .experience-section {
@@ -807,13 +807,17 @@ a, a:hover, a:link, a:active, a:visited {
   padding-bottom: 10rem;
 }
 
-.experience-logo img{
+.experience-logo {
   width: 32.5vw;
   margin-left: calc(50% - 16.25vw);
-  margin-top: -37rem;
-  padding: 2rem;
-  max-width: 30rem;
+  margin-top: -5rem;
   z-index: 999999;
+  position: relative;
+}
+
+.experience-logo img {
+  max-width: 80%;
+  margin-left: 10%;
 }
 
 @media screen and (min-width: 1100px) {
@@ -1163,5 +1167,17 @@ a, a:hover, a:link, a:active, a:visited {
     height: 10vh;
     object-fit: cover;
     margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  .experience-logo {
+    margin-top: -35rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .timeline-top::after {
+    height: 5rem;
   }
 }

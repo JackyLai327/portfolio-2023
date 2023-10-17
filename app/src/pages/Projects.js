@@ -103,14 +103,17 @@ function Projects() {
             title="UniChat" 
             thumbnail={unichatLogo} 
             description="Online Forum iOS App for Australian Uni Students" 
-            date="Aug 2023 - Current"
+            date="Aug 2023 - Oct 2023"
             summary={`
               <ul>
-                <li>Designing, developing and deploying the app from scratch
-                <li>This is an ongoing project</li>
+                <li>Designed and implemented a forum app for Australian uni students to communicate with each other</li>
+                <li>Implemented with Swift, SwiftUI and CoreData</li>
+                <li>Allowed users to post discussions about unis and lecturers and like, reply and share other users' discussions</li>
+                <li>User can rate their unis/lecturers on a scale of 0 to 5</li>
               </ul>
             `}
             previews={[unichatLogo, unichat1, unichat2, unichat3]}
+            githubLink="https://github.com/JackyLai327/UniChat"
           />
         </div>
 
