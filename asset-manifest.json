@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-2023/static/css/main.d6fb4279.css",
-    "main.js": "/portfolio-2023/static/js/main.7d96a537.js",
+    "main.css": "/portfolio-2023/static/css/main.c3bf44bc.css",
+    "main.js": "/portfolio-2023/static/js/main.a09d999e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-2023/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile_pic_hi.JPG": "/portfolio-2023/static/media/profile_pic_hi.7b13f9fe0cc3e9e0336b.JPG",
     "static/media/Barista (Market Espresso).mp4": "/portfolio-2023/static/media/Barista (Market Espresso).d90587d97d67e8def366.mp4",
@@ -55,10 +55,12 @@
     "static/media/Teamwork.png": "/portfolio-2023/static/media/Teamwork.76b856fb0813871dc675.png",
     "static/media/hacker.png": "/portfolio-2023/static/media/hacker.8722ca4b7ed9fbc19cc8.png",
     "static/media/Multitasking.png": "/portfolio-2023/static/media/Multitasking.626adfecdceb477bcf57.png",
+    "static/media/moon.png": "/portfolio-2023/static/media/moon.af35d5756518bf065cb9.png",
     "static/media/Problem Solving.png": "/portfolio-2023/static/media/Problem Solving.681e5c1bbea51890d94f.png",
     "static/media/email_yellow.png": "/portfolio-2023/static/media/email_yellow.30245b86f07d15789b5b.png",
     "static/media/email_darkblue.png": "/portfolio-2023/static/media/email_darkblue.9adeabc7cc9057fd56a3.png",
     "static/media/SwiftUI.png": "/portfolio-2023/static/media/SwiftUI.b09241f82dd59f4a2811.png",
+    "static/media/sun.png": "/portfolio-2023/static/media/sun.37d4007713146d73c751.png",
     "static/media/portal.png": "/portfolio-2023/static/media/portal.55214052a6c68c42e467.png",
     "static/media/Communication.png": "/portfolio-2023/static/media/Communication.7425923556a70039e052.png",
     "static/media/Figma.png": "/portfolio-2023/static/media/Figma.8b8c030a352919963e94.png",
@@ -72,12 +74,12 @@
     "static/media/resume_yellow.png": "/portfolio-2023/static/media/resume_yellow.35a5d91aa8bfbb4c0951.png",
     "static/media/resume_darkblue.png": "/portfolio-2023/static/media/resume_darkblue.f1f56c101bbab5e4a942.png",
     "index.html": "/portfolio-2023/index.html",
-    "main.d6fb4279.css.map": "/portfolio-2023/static/css/main.d6fb4279.css.map",
-    "main.7d96a537.js.map": "/portfolio-2023/static/js/main.7d96a537.js.map",
+    "main.c3bf44bc.css.map": "/portfolio-2023/static/css/main.c3bf44bc.css.map",
+    "main.a09d999e.js.map": "/portfolio-2023/static/js/main.a09d999e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-2023/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6fb4279.css",
-    "static/js/main.7d96a537.js"
+    "static/css/main.c3bf44bc.css",
+    "static/js/main.a09d999e.js"
   ]
 }
