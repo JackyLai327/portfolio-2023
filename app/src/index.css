@@ -1229,6 +1229,8 @@ a, a:hover, a:link, a:active, a:visited {
   gap: .5rem;
   margin-top: 2rem;
   bottom: 0;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 .dark-mode .footer  {
