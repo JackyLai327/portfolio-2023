@@ -6,7 +6,7 @@ import { RMITLogo, python, react, nodejs,
         communication, leadership, multitasking, research,
         problemSolving, teamwork, timeManagement,
         chamberOrchestra, drumKit, marketEspresso,
-        piano, tedx, acting, vibraphone, swift, swiftUI } from "../resources/images";
+        piano, tedx, acting, vibraphone, swift, swiftUI, figma } from "../resources/images";
 import { scholarship, peerMentor2022s1, peerMentor2022s2,
           peerMentor2023s1, apaward, actingCompetition } from "../resources/PDFs";
 import React from "react";
@@ -55,7 +55,7 @@ function Education() {
             instituteName="RMIT University"
             degree="Bachelor of Information Technology"
             duration="2021 - 2023"
-            skillsAcquired={[react, nodejs, swift, swiftUI, python, aws, java, git, cicd, cpp, terraform, php, sql]}
+            skillsAcquired={[react, nodejs, swift, swiftUI, python, aws, java, git, cicd, cpp, figma, terraform, php, sql]}
             awards={[scholarship, peerMentor2022s1, peerMentor2022s2, peerMentor2023s1]}
             gpa="3.4"
             extracurricular={[chamberOrchestra, marketEspresso]}
