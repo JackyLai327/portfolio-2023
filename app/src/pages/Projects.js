@@ -15,7 +15,15 @@ import {
   unichatLogo,
   unichat1,
   unichat2,
-  unichat3
+  unichat3,
+  cicd3,
+  unichat4,
+  unichat5,
+  unichat6,
+  afterhours3,
+  afterhours4,
+  afterhours5,
+  afterhours6
 } from "../resources/images";
 import ColourSwitch from "../components/ColourSwitch";
 
@@ -75,7 +83,7 @@ function Projects() {
             `}
             websiteLink="https://jackylai327.github.io/iit_a3_repo/tools_tech_test.html"
             githubLink="https://jackylai327.github.io/iit_a3_repo/game01/build/web/index.html"
-            previews={[webGameDevThumbnail, afterhours1, afterhours2]}
+            previews={[webGameDevThumbnail, afterhours1, afterhours2, afterhours3, afterhours4, afterhours5, afterhours6]}
           />
         </div>
 
@@ -113,7 +121,7 @@ function Projects() {
                 <li>User can rate their unis/lecturers on a scale of 0 to 5</li>
               </ul>
             `}
-            previews={[unichatLogo, unichat1, unichat2, unichat3]}
+            previews={[unichatLogo, unichat1, unichat2, unichat3, unichat4, unichat5, unichat6]}
             githubLink="https://github.com/JackyLai327/UniChat"
           />
         </div>
@@ -151,7 +159,7 @@ function Projects() {
               </ul>
             `}
             githubLink="https://github.com/JackyLai327/CI-CD-deployment-project-for-devops-course"
-            previews={[cicd1, cicd2]}
+            previews={[cicd1, cicd2, cicd3]}
           />
         </div>
 

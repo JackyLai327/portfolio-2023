@@ -37,6 +37,7 @@ function Home() {
       <div className='json-summary'>
         [&#123; <br />
         &nbsp;&nbsp;&nbsp;&nbsp;"name": "Yu-Cheng Lai", <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;"preferredName": "Jacky", <br />
         &nbsp;&nbsp;&nbsp;&nbsp;"age": 23, <br />
         &nbsp;&nbsp;&nbsp;&nbsp;"location": "Melbourne, Australia", <br />
         &nbsp;&nbsp;&nbsp;&nbsp;"education": "RMIT University", <br />

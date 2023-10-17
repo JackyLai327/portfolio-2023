@@ -6,6 +6,7 @@ function ProjectCard(props) {
     const [isExpanded, setIsExpanded] = useState(false);
     const [slideNumber, setSlideNumber] = useState(0);
     const [slideAnimation, setSlideAnimation] = useState(false);
+    const [imagePreview, setImagePreview] = useState(false);
 
     const expandCard = () => {
         setIsExpanded(true);
@@ -37,7 +38,15 @@ function ProjectCard(props) {
         setSlideAnimation(true);
         setTimeout(() => {
             setSlideAnimation(false);
-        }, 500)
+        }, 300)
+    }
+
+    const focusImage = () => {
+        setImagePreview(true);
+    }
+
+    const closePreview = () => {
+        setImagePreview(false);
     }
 
     return (
@@ -56,11 +65,13 @@ function ProjectCard(props) {
 
                     {/* SLIDE -> COLLAPSED */}
                     <div className={!isExpanded || props.previews === undefined ? "project-slide" : "d-none"}>
-                        <img src={props.previews?.[slideNumber]} alt={"preview slide number " + slideNumber} className={slideAnimation ? "slide-change" : ""}/>
-                        <div className='d-flex slide-buttons'>
-                            <div className='prev-slide-button' onClick={prevSlide}><button style={{"all": "unset"}}>&lt;</button></div>
-                            <div className='next-slide-button' onClick={nextSlide}><button style={{"all": "unset"}}>&gt;</button></div>
-                        </div>
+                        <img src={props.previews?.[slideNumber]} alt={"preview slide number " + slideNumber} className={slideAnimation ? "slide-change" : ""} onClick={focusImage}/>
+                    </div>
+                    {/* SLIDE BUTTONS -> COLLAPSED */}
+                    <div className={!isExpanded || props.previews === undefined ? "d-flex slide-buttons" : "d-none"}>
+                        <div className='prev-slide-button' onClick={prevSlide}><button style={{"all": "unset"}}>&lt;</button></div>
+                        <div className='focus-image-button' onClick={focusImage}><button style={{"all": "unset"}}>View Image</button></div>
+                        <div className='next-slide-button' onClick={nextSlide}><button style={{"all": "unset"}}>&gt;</button></div>
                     </div>
                     <div className='project-links'>
                         {/* WEBSITE LINK -> EXPANDED */}
@@ -90,6 +101,21 @@ function ProjectCard(props) {
                     <div className={!isExpanded ? "d-none" : "project-card-collapse-button"} onClick={collapseCard}><button style={{"all": "unset"}}>Show less</button></div>
                 </div>
             </div>
+            
+            {/* FOCUS IMAGE */}
+            {imagePreview ?
+            <div>
+                <div className='focus-background'></div>
+                <div className="focus-container">
+                    <div className='focus-prev-slide-button' onClick={prevSlide}><button style={{"all": "unset"}}>&lt;</button></div>
+                    <div className="focused-image">
+                        <img src={props.previews?.[slideNumber]} alt={"preview slide number " + slideNumber} className={slideAnimation ? "slide-change" : ""}/>
+                    </div>
+                    <div className='focus-next-slide-button' onClick={nextSlide}><button style={{"all": "unset"}}>&gt;</button></div>
+                </div>
+                <div className="focus-close-button" onClick={closePreview}><div className="focus-close-button-cross"></div></div>
+            </div> : null
+            }
         </>
     )
 }
