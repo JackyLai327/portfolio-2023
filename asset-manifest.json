@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-2023/static/css/main.c8960960.css",
-    "main.js": "/portfolio-2023/static/js/main.ab678e98.js",
+    "main.js": "/portfolio-2023/static/js/main.495eb9d7.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-2023/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile_pic_hi.JPG": "/portfolio-2023/static/media/profile_pic_hi.7b13f9fe0cc3e9e0336b.JPG",
     "static/media/unichat-2.png": "/portfolio-2023/static/media/unichat-2.49037774beeb43eff9fa.png",
@@ -58,7 +58,7 @@
     "static/media/Time Management.png": "/portfolio-2023/static/media/Time Management.7c29dff0aabc31bad71c.png",
     "static/media/threads_yellow.png": "/portfolio-2023/static/media/threads_yellow.59252225f9b34578f950.png",
     "static/media/question_mark.png": "/portfolio-2023/static/media/question_mark.093a2fe7fe2bce2757d7.png",
-    "static/media/Resume.pdf": "/portfolio-2023/static/media/Resume.6a230915ea7ed3be635e.pdf",
+    "static/media/Resume.pdf": "/portfolio-2023/static/media/Resume.6928a84f136015204c98.pdf",
     "static/media/threads_darkblue.png": "/portfolio-2023/static/media/threads_darkblue.0595f729963c4912f012.png",
     "static/media/Teamwork.png": "/portfolio-2023/static/media/Teamwork.76b856fb0813871dc675.png",
     "static/media/hacker.png": "/portfolio-2023/static/media/hacker.8722ca4b7ed9fbc19cc8.png",
@@ -83,11 +83,11 @@
     "static/media/resume_darkblue.png": "/portfolio-2023/static/media/resume_darkblue.f1f56c101bbab5e4a942.png",
     "index.html": "/portfolio-2023/index.html",
     "main.c8960960.css.map": "/portfolio-2023/static/css/main.c8960960.css.map",
-    "main.ab678e98.js.map": "/portfolio-2023/static/js/main.ab678e98.js.map",
+    "main.495eb9d7.js.map": "/portfolio-2023/static/js/main.495eb9d7.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-2023/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8960960.css",
-    "static/js/main.ab678e98.js"
+    "static/js/main.495eb9d7.js"
   ]
 }
