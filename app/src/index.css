@@ -113,11 +113,11 @@ a, a:hover, a:link, a:active, a:visited {
 
 .heading-parameter {
   cursor: pointer;
-  text-decoration: underline dotted red;
+  /* text-decoration: underline dotted rgb(185, 91, 182); */
 }
 
 .heading-parameter-selected {
-  text-decoration: underline solid red;
+  text-decoration: underline solid rgb(218, 112, 214);
 }
 
 .heading-parameter:hover {
