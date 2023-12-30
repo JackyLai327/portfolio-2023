@@ -113,7 +113,6 @@ a, a:hover, a:link, a:active, a:visited {
 
 .heading-parameter {
   cursor: pointer;
-  /* text-decoration: underline dotted rgb(185, 91, 182); */
 }
 
 .heading-parameter-selected {
@@ -307,7 +306,7 @@ a, a:hover, a:link, a:active, a:visited {
   left: 8px;
   font-size: 0.8rem;
   top: 5px;
-  animation: appear 0.5s ease-in-out;
+  animation: scale-up-from-bottom-left 0.5s ease-in-out;
   user-select: none;
 }
 
@@ -317,16 +316,25 @@ a, a:hover, a:link, a:active, a:visited {
   right: 5px;
   font-size: 0.8rem;
   top: 5px;
-  animation: appear 0.5s ease-in-out;
+  animation: scale-up-from-bottom-right 0.5s ease-in-out;
   user-select: none;
 }
 
-@keyframes appear {
+@keyframes scale-up-from-bottom-right {
   0% {
-    opacity: 0;
+    transform: translate(50%, 50%) scale(0) rotate(0);
   }
   100% {
-    opacity: 1;
+    transform: translate(0%, 0%) scale(1) rotate(360deg);
+  }
+}
+
+@keyframes scale-up-from-bottom-left {
+  0% {
+    transform: translate(-50%, 50%) scale(0) rotate(0);
+  }
+  100% {
+    transform: translate(0%, 0%) scale(1) rotate(360deg);
   }
 }
 
