@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-2023/static/css/main.4b76bd4c.css",
-    "main.js": "/portfolio-2023/static/js/main.495eb9d7.js",
+    "main.css": "/portfolio-2023/static/css/main.81b2338e.css",
+    "main.js": "/portfolio-2023/static/js/main.b8baf56c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-2023/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile_pic_hi.JPG": "/portfolio-2023/static/media/profile_pic_hi.7b13f9fe0cc3e9e0336b.JPG",
     "static/media/unichat-2.png": "/portfolio-2023/static/media/unichat-2.49037774beeb43eff9fa.png",
@@ -35,6 +35,7 @@
     "static/media/Swift.png": "/portfolio-2023/static/media/Swift.11f05e122f7a44a22855.png",
     "static/media/C++.png": "/portfolio-2023/static/media/C++.ac3293040e0d6c925926.png",
     "static/media/cicd-1.png": "/portfolio-2023/static/media/cicd-1.48e51e3ada9f8ecdf8ff.png",
+    "static/media/Peer Mentoring Certificate 2023 S2.pdf": "/portfolio-2023/static/media/Peer Mentoring Certificate 2023 S2.6be1c529978e164ea22d.pdf",
     "static/media/Vibraphone.jpg": "/portfolio-2023/static/media/Vibraphone.c32a84e0850890cb2a0c.jpg",
     "static/media/Piano.jpg": "/portfolio-2023/static/media/Piano.d276b86752b619afc0f0.jpg",
     "static/media/unichat-logo.png": "/portfolio-2023/static/media/unichat-logo.38d1d4de033431e8fabc.png",
@@ -57,8 +58,8 @@
     "static/media/after-hours-4.png": "/portfolio-2023/static/media/after-hours-4.167cc2333b8981cc4717.png",
     "static/media/Time Management.png": "/portfolio-2023/static/media/Time Management.7c29dff0aabc31bad71c.png",
     "static/media/threads_yellow.png": "/portfolio-2023/static/media/threads_yellow.59252225f9b34578f950.png",
+    "static/media/Resume.pdf": "/portfolio-2023/static/media/Resume.5d78c42e7b6c1b676816.pdf",
     "static/media/question_mark.png": "/portfolio-2023/static/media/question_mark.093a2fe7fe2bce2757d7.png",
-    "static/media/Resume.pdf": "/portfolio-2023/static/media/Resume.6928a84f136015204c98.pdf",
     "static/media/threads_darkblue.png": "/portfolio-2023/static/media/threads_darkblue.0595f729963c4912f012.png",
     "static/media/Teamwork.png": "/portfolio-2023/static/media/Teamwork.76b856fb0813871dc675.png",
     "static/media/hacker.png": "/portfolio-2023/static/media/hacker.8722ca4b7ed9fbc19cc8.png",
@@ -82,12 +83,12 @@
     "static/media/resume_yellow.png": "/portfolio-2023/static/media/resume_yellow.35a5d91aa8bfbb4c0951.png",
     "static/media/resume_darkblue.png": "/portfolio-2023/static/media/resume_darkblue.f1f56c101bbab5e4a942.png",
     "index.html": "/portfolio-2023/index.html",
-    "main.4b76bd4c.css.map": "/portfolio-2023/static/css/main.4b76bd4c.css.map",
-    "main.495eb9d7.js.map": "/portfolio-2023/static/js/main.495eb9d7.js.map",
+    "main.81b2338e.css.map": "/portfolio-2023/static/css/main.81b2338e.css.map",
+    "main.b8baf56c.js.map": "/portfolio-2023/static/js/main.b8baf56c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-2023/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b76bd4c.css",
-    "static/js/main.495eb9d7.js"
+    "static/css/main.81b2338e.css",
+    "static/js/main.b8baf56c.js"
   ]
 }
