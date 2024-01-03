@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-2023/static/css/main.81b2338e.css",
-    "main.js": "/portfolio-2023/static/js/main.b8baf56c.js",
+    "main.js": "/portfolio-2023/static/js/main.a3b0ee09.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-2023/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile_pic_hi.JPG": "/portfolio-2023/static/media/profile_pic_hi.7b13f9fe0cc3e9e0336b.JPG",
     "static/media/unichat-2.png": "/portfolio-2023/static/media/unichat-2.49037774beeb43eff9fa.png",
@@ -57,8 +57,8 @@
     "static/media/Peer Mentoring Certificate 2022 S2.pdf": "/portfolio-2023/static/media/Peer Mentoring Certificate 2022 S2.6cfcefc339ab9621a60d.pdf",
     "static/media/after-hours-4.png": "/portfolio-2023/static/media/after-hours-4.167cc2333b8981cc4717.png",
     "static/media/Time Management.png": "/portfolio-2023/static/media/Time Management.7c29dff0aabc31bad71c.png",
+    "static/media/Resume.pdf": "/portfolio-2023/static/media/Resume.e3a84e2d149d2831308e.pdf",
     "static/media/threads_yellow.png": "/portfolio-2023/static/media/threads_yellow.59252225f9b34578f950.png",
-    "static/media/Resume.pdf": "/portfolio-2023/static/media/Resume.5d78c42e7b6c1b676816.pdf",
     "static/media/question_mark.png": "/portfolio-2023/static/media/question_mark.093a2fe7fe2bce2757d7.png",
     "static/media/threads_darkblue.png": "/portfolio-2023/static/media/threads_darkblue.0595f729963c4912f012.png",
     "static/media/Teamwork.png": "/portfolio-2023/static/media/Teamwork.76b856fb0813871dc675.png",
@@ -84,11 +84,11 @@
     "static/media/resume_darkblue.png": "/portfolio-2023/static/media/resume_darkblue.f1f56c101bbab5e4a942.png",
     "index.html": "/portfolio-2023/index.html",
     "main.81b2338e.css.map": "/portfolio-2023/static/css/main.81b2338e.css.map",
-    "main.b8baf56c.js.map": "/portfolio-2023/static/js/main.b8baf56c.js.map",
+    "main.a3b0ee09.js.map": "/portfolio-2023/static/js/main.a3b0ee09.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-2023/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81b2338e.css",
-    "static/js/main.b8baf56c.js"
+    "static/js/main.a3b0ee09.js"
   ]
 }
