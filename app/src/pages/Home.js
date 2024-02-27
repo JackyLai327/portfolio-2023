@@ -51,7 +51,7 @@ function Home() {
 
       <AnimatedShape shape='bouncing-circle' size='.5rem' top='15.8rem' left='30.5rem'/>
       
-      <div className='infinite-dotted-line'></div>
+      <div className='infinite-dotted-line-container'><div className='infinite-dotted-line'></div></div>
       
       <div className='home-empty-space'></div>
       <Footer />

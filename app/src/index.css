@@ -1333,15 +1333,22 @@ a, a:hover, a:link, a:active, a:visited {
   }
 }
 
-.infinite-dotted-line {
+.infinite-dotted-line-container {
+  width: 100vw;
+  overflow: hidden;
   position: absolute;
-  animation: infinite-dotted-line 1s infinite ease-in-out;
-  width: 200%;
   top: 90%;
+  left: 0;
+}
+
+.infinite-dotted-line {
+  position: relative;
+  width: 200vw;
   left: -100%;
   border-top: 10px dotted var(--color-emphasis);
   animation: infinite-dotted-line 10s infinite linear;
   opacity: .5;
+  white-space: nowrap;
 }
 
 @keyframes infinite-dotted-line {
