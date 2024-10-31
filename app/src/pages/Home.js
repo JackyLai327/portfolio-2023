@@ -49,7 +49,7 @@ function Home() {
           <div className="pfp"><img src={profilePicFormal} alt="profile-image" /></div>
       </div>
 
-      <AnimatedShape shape='bouncing-circle' size='.5rem' top='15.8rem' left='30.5rem'/>
+      <AnimatedShape shape='bouncing-circle' size='.5rem' top='15.8rem' left='34.25rem'/>
       
       <div className='infinite-dotted-line-container'><div className='infinite-dotted-line'></div></div>
       
