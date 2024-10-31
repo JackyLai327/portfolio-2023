@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio-2023/static/css/main.f202c6e0.css",
-    "main.js": "/portfolio-2023/static/js/main.e56bb06d.js",
+    "main.css": "/portfolio-2023/static/css/main.cc3ebb94.css",
+    "main.js": "/portfolio-2023/static/js/main.627c013e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-2023/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile_pic_hi.JPG": "/portfolio-2023/static/media/profile_pic_hi.7b13f9fe0cc3e9e0336b.JPG",
+    "static/media/Cloud Foundations Certification.pdf": "/portfolio-2023/static/media/Cloud Foundations Certification.21cebcbd99eeac540b00.pdf",
+    "static/media/Common Purpose Certificate.pdf": "/portfolio-2023/static/media/Common Purpose Certificate.c015ac61c90969e0db91.pdf",
     "static/media/unichat-2.png": "/portfolio-2023/static/media/unichat-2.49037774beeb43eff9fa.png",
     "static/media/Barista (Market Espresso).mp4": "/portfolio-2023/static/media/Barista (Market Espresso).d90587d97d67e8def366.mp4",
     "static/media/Chamber Orchestra.mp4": "/portfolio-2023/static/media/Chamber Orchestra.301336e168546218bd5c.mp4",
@@ -28,7 +30,7 @@
     "static/media/unichat-6.png": "/portfolio-2023/static/media/unichat-6.9d7fab56a0dd8441b9c4.png",
     "static/media/LAN-3.png": "/portfolio-2023/static/media/LAN-3.fb4d26862940b8679e48.png",
     "static/media/java.png": "/portfolio-2023/static/media/java.fcef8238dc41dc56a208.png",
-    "static/media/Oracle SQL.png": "/portfolio-2023/static/media/Oracle SQL.1e7949dd9c246ea1689c.png",
+    "static/media/SQL.png": "/portfolio-2023/static/media/SQL.1e7949dd9c246ea1689c.png",
     "static/media/AWS.png": "/portfolio-2023/static/media/AWS.6ea666409de8d4ae80a9.png",
     "static/media/Nodejs.png": "/portfolio-2023/static/media/Nodejs.a85dc637765189ebd237.png",
     "static/media/profile_pic_formal.jpeg": "/portfolio-2023/static/media/profile_pic_formal.c89ac1a01a0d59142fb8.jpeg",
@@ -57,20 +59,22 @@
     "static/media/Peer Mentoring Certificate 2022 S2.pdf": "/portfolio-2023/static/media/Peer Mentoring Certificate 2022 S2.6cfcefc339ab9621a60d.pdf",
     "static/media/after-hours-4.png": "/portfolio-2023/static/media/after-hours-4.167cc2333b8981cc4717.png",
     "static/media/Time Management.png": "/portfolio-2023/static/media/Time Management.7c29dff0aabc31bad71c.png",
-    "static/media/Resume.pdf": "/portfolio-2023/static/media/Resume.e3a84e2d149d2831308e.pdf",
     "static/media/threads_yellow.png": "/portfolio-2023/static/media/threads_yellow.59252225f9b34578f950.png",
     "static/media/question_mark.png": "/portfolio-2023/static/media/question_mark.093a2fe7fe2bce2757d7.png",
+    "static/media/Resume.pdf": "/portfolio-2023/static/media/Resume.283da9d71ec871066525.pdf",
     "static/media/threads_darkblue.png": "/portfolio-2023/static/media/threads_darkblue.0595f729963c4912f012.png",
     "static/media/Teamwork.png": "/portfolio-2023/static/media/Teamwork.76b856fb0813871dc675.png",
     "static/media/hacker.png": "/portfolio-2023/static/media/hacker.8722ca4b7ed9fbc19cc8.png",
     "static/media/Multitasking.png": "/portfolio-2023/static/media/Multitasking.626adfecdceb477bcf57.png",
     "static/media/moon.png": "/portfolio-2023/static/media/moon.af35d5756518bf065cb9.png",
+    "static/media/pss-logo.png": "/portfolio-2023/static/media/pss-logo.6241f57f538c526bac65.png",
     "static/media/Problem Solving.png": "/portfolio-2023/static/media/Problem Solving.681e5c1bbea51890d94f.png",
     "static/media/email_yellow.png": "/portfolio-2023/static/media/email_yellow.30245b86f07d15789b5b.png",
     "static/media/email_darkblue.png": "/portfolio-2023/static/media/email_darkblue.9adeabc7cc9057fd56a3.png",
     "static/media/SwiftUI.png": "/portfolio-2023/static/media/SwiftUI.b09241f82dd59f4a2811.png",
     "static/media/sun.png": "/portfolio-2023/static/media/sun.37d4007713146d73c751.png",
     "static/media/portal.png": "/portfolio-2023/static/media/portal.55214052a6c68c42e467.png",
+    "static/media/Vue3.png": "/portfolio-2023/static/media/Vue3.e649d3c9b35707312f76.png",
     "static/media/Communication.png": "/portfolio-2023/static/media/Communication.7425923556a70039e052.png",
     "static/media/Figma.png": "/portfolio-2023/static/media/Figma.8b8c030a352919963e94.png",
     "static/media/Python.png": "/portfolio-2023/static/media/Python.e5cb52a701097db79605.png",
@@ -83,12 +87,12 @@
     "static/media/resume_yellow.png": "/portfolio-2023/static/media/resume_yellow.35a5d91aa8bfbb4c0951.png",
     "static/media/resume_darkblue.png": "/portfolio-2023/static/media/resume_darkblue.f1f56c101bbab5e4a942.png",
     "index.html": "/portfolio-2023/index.html",
-    "main.f202c6e0.css.map": "/portfolio-2023/static/css/main.f202c6e0.css.map",
-    "main.e56bb06d.js.map": "/portfolio-2023/static/js/main.e56bb06d.js.map",
+    "main.cc3ebb94.css.map": "/portfolio-2023/static/css/main.cc3ebb94.css.map",
+    "main.627c013e.js.map": "/portfolio-2023/static/js/main.627c013e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-2023/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f202c6e0.css",
-    "static/js/main.e56bb06d.js"
+    "static/css/main.cc3ebb94.css",
+    "static/js/main.627c013e.js"
   ]
 }
