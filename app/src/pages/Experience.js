@@ -1,7 +1,7 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import ExperienceSection from "../components/ExperienceSection";
-import { dcardIcon, museSceneLab } from "../resources/images";
+import { dcardIcon, museSceneLab, pssLogo } from "../resources/images";
 import ColourSwitch from "../components/ColourSwitch";
 
 function Experience() {
@@ -18,7 +18,25 @@ function Experience() {
             </div>
 
             <div className="timeline-top"></div>
-            
+            <ExperienceSection
+                title="DevOps Engineer"
+                company="PSS Group"
+                companyLink="https://www.pss-group.com/en/"
+                companyLogo={pssLogo}
+                summary={`
+                    <ul>
+                        <li>UI/UX Design- Designed the UI of a building access security system from scratch using Figma</li>
+                        <li>Web Development- Implemented the frontend web app with Vue 3 based on the Figma design</li>
+                        <li>Time Management- Learned Vue 3 while designing and implementing the web app</li>
+                        <li>The product is being promoted as a lucrative service to fin-tech enterprises for the company</li>
+                    </ul>
+                `}
+                date="Sep 2024 - Present"
+                location="Taipei, Taiwan"
+            />
+
+            <br></br>
+
             <ExperienceSection 
                 title="Web Dev Placement"
                 company="Muse Scene Lab"

@@ -41,6 +41,7 @@ function EducationInstitute(props) {
                         <div key={index} className="skill" id={index} >
                             <img src={skill} alt="skill icon"  />
                             <div className={skillHovered ? "skill-mask" : "d-none"}>{skill.toString().split(".")[0].split("/").pop() }</div> 
+                            { console.log(skill.toString()) }
                         </div>
                     ))}
                 </div>

@@ -1013,6 +1013,11 @@ a, a:hover, a:link, a:active, a:visited {
   margin-top: -5rem;
   z-index: 999999;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
 }
 
 .experience-logo img {

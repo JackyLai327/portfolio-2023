@@ -6,3 +6,5 @@ export const peerMentor2023s2 = require('../resources/pdfs/Peer Mentoring Certif
 export const resume = require('../resources/pdfs/Resume.pdf');
 export const apaward = require('../resources/pdfs/AP Honours Award.pdf');
 export const actingCompetition = require('../resources/pdfs/Acting Competition.pdf');
+export const cloudFoundations = require('../resources/pdfs/Cloud Foundations Certification.pdf');
+export const globalLeadershipExperience = require('../resources/pdfs/Common Purpose Certificate.pdf');
