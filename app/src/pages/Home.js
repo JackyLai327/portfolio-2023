@@ -25,7 +25,7 @@ function Home() {
           </div>
           <span className={foundEasterEgg ? "egg-found" : "d-none"}>🥚 World says hi! 🥚</span>
           <div className='home-greeting'>Yu-Cheng Lai</div>
-          <div className='home-greeting'>IT Graduate from RMIT</div>
+          <div className='home-greeting'>DevOps / Frontend Engineer</div>
         </div>
       </div>
       
@@ -38,10 +38,10 @@ function Home() {
         [&#123; <br />
         &nbsp;&nbsp;&nbsp;&nbsp;"name": "Yu-Cheng Lai", <br />
         &nbsp;&nbsp;&nbsp;&nbsp;"preferredName": "Jacky", <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;"age": 23, <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;"age": 24, <br />
         &nbsp;&nbsp;&nbsp;&nbsp;"location": "Melbourne, Australia", <br />
         &nbsp;&nbsp;&nbsp;&nbsp;"education": "RMIT University", <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;"personality": "ENFJ-A" <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;"personality": "INFJ-P" <br />
         &#125;]
       </div>
 
