@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
-import { 
-  webGameDevThumbnail, questionMark, joyaki1, joyaki2, afterhours1, 
+import {
+  webGameDevThumbnail, questionMark, joyaki1, joyaki2, afterhours1,
   afterhours2,
   lan1,
   lan2,
@@ -23,7 +23,12 @@ import {
   afterhours3,
   afterhours4,
   afterhours5,
-  afterhours6
+  afterhours6,
+  vasBackstage1,
+  segDashboard1,
+  segDashboard2,
+  segDashboard3,
+  segDashboard4
 } from "../resources/images";
 import ColourSwitch from "../components/ColourSwitch";
 
@@ -56,12 +61,12 @@ function Projects() {
 
         {/* Default/Welcome card */}
         <div className={parameterSelected !== null ? "hide-project" : "display-project"}>
-          <ProjectCard 
-            title="Click a parameter to view projects" 
-            thumbnail={questionMark} 
-            description="It's just up there!" 
+          <ProjectCard
+            title="Click a parameter to view projects"
+            thumbnail={questionMark}
+            description="It's just up there!"
             date="Yes, in the heading!"
-            summary="Ah... You missed the heading? Well, click on self or team, where there are dotted underlines, to view my projects. Here are more hints: self --> individual projects, team --> group projects." 
+            summary="Ah... You missed the heading? Well, click on self or team, where there are dotted underlines, to view my projects. Here are more hints: self --> individual projects, team --> group projects."
             // No links for this card
             // No preview slides for this card\
           />
@@ -69,10 +74,10 @@ function Projects() {
 
         {/* Group Projects */}
         <div className={parameterSelected === "self" || parameterSelected === null ? "hide-project" : "display-project"}>
-          <ProjectCard 
-            title="After Hours" 
-            thumbnail={webGameDevThumbnail} 
-            description="Game-Boy-Style Game Prototype" 
+          <ProjectCard
+            title="After Hours"
+            thumbnail={webGameDevThumbnail}
+            description="Game-Boy-Style Game Prototype"
             date="2021"
             summary={`
               <ul>
@@ -88,10 +93,10 @@ function Projects() {
         </div>
 
         <div className={parameterSelected === "self" || parameterSelected === null ? "hide-project" : "display-project"}>
-          <ProjectCard 
-            title="Joyaki" 
-            thumbnail={joyaki1} 
-            description="Flappy Bird Inspired Python Game" 
+          <ProjectCard
+            title="Joyaki"
+            thumbnail={joyaki1}
+            description="Flappy Bird Inspired Python Game"
             date="Aug 2021 - Sep 2021"
             summary={`
               <ul>
@@ -108,10 +113,47 @@ function Projects() {
 
         {/* Individual Projects */}
         <div className={parameterSelected === "team" || parameterSelected === null ? "hide-project" : "display-project"}>
-          <ProjectCard 
-            title="UniChat" 
-            thumbnail={unichatLogo} 
-            description="Online Forum iOS App for Australian Uni Students" 
+          <ProjectCard
+            title="SEG Dashboard"
+            thumbnail={unichatLogo}
+            description="An internal dashboard web app to monitor systems in real time"
+            date="Nov 2024 - Jan 2025"
+            summary={`
+              <ul>
+                <li>Authored the entire ful stack web app</li>
+                <li>Researched on dashboard tools; built the app with Vue3, Express.js and MongoDB</li>
+                <li>Deployed the app in UAT/PROD environments on GCP's GKE</li>
+                <li>Implementing automatic deployments and site monitoring using Kubernetes and Google Cloud</li>
+              </ul>
+            `}
+            previews={[segDashboard1, segDashboard2, segDashboard3, segDashboard4]}
+            websiteLink="http://34.36.91.57/seg-dashboard-app/"
+          />
+        </div>
+
+        <div className={parameterSelected === "team" || parameterSelected === null ? "hide-project" : "display-project"}>
+          <ProjectCard
+            title="VAS"
+            thumbnail={unichatLogo}
+            description="Visitor Access System web app for office buildings"
+            date="Oct 2024 - Present"
+            summary={`
+              <ul>
+                <li>Designed and Implemented the Web Application's UI/UX</li>
+                <li>Designed with Figma and Implemented with Vue3</li>
+                <li>Integrated with Google Maps API for better user experiences</li>
+                <li>Users (visitors/reviewer) can make appointments to visit companies through this platform</li>
+              </ul>
+            `}
+            previews={[vasBackstage1]}
+          />
+        </div>
+
+        <div className={parameterSelected === "team" || parameterSelected === null ? "hide-project" : "display-project"}>
+          <ProjectCard
+            title="UniChat"
+            thumbnail={unichatLogo}
+            description="Online Forum iOS App for Australian Uni Students"
             date="Aug 2023 - Oct 2023"
             summary={`
               <ul>
@@ -127,10 +169,10 @@ function Projects() {
         </div>
 
         <div className={parameterSelected === "team" || parameterSelected === null ? "hide-project" : "display-project"}>
-          <ProjectCard 
-            title="Loop Agile Now" 
-            thumbnail={lan1} 
-            description="Twitter Inspired Node/React Web App" 
+          <ProjectCard
+            title="Loop Agile Now"
+            thumbnail={lan1}
+            description="Twitter Inspired Node/React Web App"
             date="Apr 2022 - Jun 2022"
             summary={`
               <ul>
@@ -146,10 +188,10 @@ function Projects() {
         </div>
 
         <div className={parameterSelected === "team" || parameterSelected === null ? "hide-project" : "display-project"}>
-          <ProjectCard 
-            title="CI/CD Deployment Project" 
-            thumbnail={cicd} 
-            description="Automated Deployment Project with GitHub Actions" 
+          <ProjectCard
+            title="CI/CD Deployment Project"
+            thumbnail={cicd}
+            description="Automated Deployment Project with GitHub Actions"
             date="Mar 2023"
             summary={`
               <ul>
@@ -164,10 +206,10 @@ function Projects() {
         </div>
 
         <div className={parameterSelected === "team" || parameterSelected === null ? "hide-project" : "display-project"}>
-          <ProjectCard 
-            title="Canva Inspired Software" 
-            thumbnail={canva} 
-            description="Canva Inspired Java GUI Application" 
+          <ProjectCard
+            title="Canva Inspired Software"
+            thumbnail={canva}
+            description="Canva Inspired Java GUI Application"
             date="Apr 2022 - Jun 2022"
             summary={`
               <ul>

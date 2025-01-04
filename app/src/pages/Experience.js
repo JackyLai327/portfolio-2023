@@ -25,10 +25,10 @@ function Experience() {
                 companyLogo={pssLogo}
                 summary={`
                     <ul>
-                        <li>UI/UX Design- Designed the UI of a building access security system from scratch using Figma</li>
-                        <li>Web Development- Implemented the frontend web app with Vue 3 based on the Figma design</li>
-                        <li>Time Management- Learned Vue 3 while designing and implementing the web app</li>
-                        <li>The product is being promoted as a lucrative service to fin-tech enterprises for the company</li>
+                        <li>Designed and Implemented the wb app of a lucrative visitor access system marketed to fintech enterprises using Figma and Vue3.</li>
+                        <li>Built and Deployed a car park dashboard for easy monitoring and reduced unsatisfactory user experiences using Vue3, Express and GCP</li>
+                        <li>Time Management- Learned Vue 3 while designing and implementing the web app.</li>
+                        <li>Proactively communicated with managers and CTO for building tools to increase workload efficiency.</li>
                     </ul>
                 `}
                 date="Sep 2024 - Present"
@@ -37,34 +37,34 @@ function Experience() {
 
             <br></br>
 
-            <ExperienceSection 
+            <ExperienceSection
                 title="Web Dev Placement"
                 company="Muse Scene Lab"
                 companyLink="https://musescenelab.com/"
                 companyLogo={museSceneLab}
                 summary={`
                     <ul>
-                        <li>Muse Scene Lab is dedicated to creating VR/XR/AR and online platform for music learners and rehearsals</li>
-                        <li>Developing a web application for music learners to learn and practice music online</li>
-                        <li>Led the frontend team to implement all designs required by the client</li>
-                        <li>Visualised music performance data into XY charts for student's performance analysis</li>
+                        <li>Implemented the web app using React libraries according to Figma designs</li>
+                        <li>Visualised and processed music-performance data using React-Vis</li>
+                        <li>Led the frontend team using the Kanban management methodology</li>
+                        <li>Actively communicated with CTO and CEO for constant feedback and improvements to align with business requirements. •Received positive feedback for accurate implementation and detailed documentation</li>
                     </ul>
                 `}
                 date="Jul 2023 - Nov 2023"
                 location="Madrid, Spain"
             />
 
-            <ExperienceSection 
+            <ExperienceSection
                 title="Production QA Intern"
                 company="Dcard"
                 companyLink="https://www.dcard.tw/"
                 companyLogo={dcardIcon}
                 summary={`
                     <ul>
-                        <li>Dcard is an online forum application that has 18 million active users every month</li>
-                        <li>Localised the Dcard app into the English version</li>
-                        <li>Assured APIs sent from client side are exactly as written in specification</li>
-                        <li>Tested for potential hidden errors and bugs</li>
+                        <li>Localised the app into English using i18n and lokalise.</li>
+                        <li>ested newly-implemented features by capturing API requests and responses, and provide bug-reports when bugs are present.</li>
+                        <li>Researched potential markets in Southeast Asia and Latin America regions for company expansion.</li>
+                        <li>Received positive feedback for being efficient and proactive from the HR department.</li>
                     </ul>
                 `}
                 date="Oct 2021 - Feb 2022"
