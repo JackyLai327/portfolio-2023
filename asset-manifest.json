@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-2023/static/css/main.cc3ebb94.css",
-    "main.js": "/portfolio-2023/static/js/main.9c2fb73a.js",
+    "main.js": "/portfolio-2023/static/js/main.6ce3d366.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-2023/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile_pic_hi.JPG": "/portfolio-2023/static/media/profile_pic_hi.7b13f9fe0cc3e9e0336b.JPG",
     "static/media/Cloud Foundations Certification.pdf": "/portfolio-2023/static/media/Cloud Foundations Certification.21cebcbd99eeac540b00.pdf",
@@ -63,10 +63,10 @@
     "static/media/after-hours-5.png": "/portfolio-2023/static/media/after-hours-5.a78b4358cc631d4dd0b6.png",
     "static/media/Peer Mentoring Certificate 2022 S2.pdf": "/portfolio-2023/static/media/Peer Mentoring Certificate 2022 S2.6cfcefc339ab9621a60d.pdf",
     "static/media/after-hours-4.png": "/portfolio-2023/static/media/after-hours-4.167cc2333b8981cc4717.png",
+    "static/media/Resume.pdf": "/portfolio-2023/static/media/Resume.10e0b289d9e4db10620c.pdf",
     "static/media/Time Management.png": "/portfolio-2023/static/media/Time Management.7c29dff0aabc31bad71c.png",
     "static/media/threads_yellow.png": "/portfolio-2023/static/media/threads_yellow.59252225f9b34578f950.png",
     "static/media/question_mark.png": "/portfolio-2023/static/media/question_mark.093a2fe7fe2bce2757d7.png",
-    "static/media/Resume.pdf": "/portfolio-2023/static/media/Resume.09dcc4499d6b6b38233b.pdf",
     "static/media/threads_darkblue.png": "/portfolio-2023/static/media/threads_darkblue.0595f729963c4912f012.png",
     "static/media/Teamwork.png": "/portfolio-2023/static/media/Teamwork.76b856fb0813871dc675.png",
     "static/media/hacker.png": "/portfolio-2023/static/media/hacker.8722ca4b7ed9fbc19cc8.png",
@@ -93,11 +93,11 @@
     "static/media/resume_darkblue.png": "/portfolio-2023/static/media/resume_darkblue.f1f56c101bbab5e4a942.png",
     "index.html": "/portfolio-2023/index.html",
     "main.cc3ebb94.css.map": "/portfolio-2023/static/css/main.cc3ebb94.css.map",
-    "main.9c2fb73a.js.map": "/portfolio-2023/static/js/main.9c2fb73a.js.map",
+    "main.6ce3d366.js.map": "/portfolio-2023/static/js/main.6ce3d366.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-2023/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc3ebb94.css",
-    "static/js/main.9c2fb73a.js"
+    "static/js/main.6ce3d366.js"
   ]
 }
