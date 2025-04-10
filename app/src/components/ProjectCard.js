@@ -101,7 +101,7 @@ function ProjectCard(props) {
                     <div className={!isExpanded ? "d-none" : "project-card-collapse-button"} onClick={collapseCard}><button style={{"all": "unset"}}>Show less</button></div>
                 </div>
             </div>
-            
+
             {/* FOCUS IMAGE */}
             {imagePreview ?
             <div>

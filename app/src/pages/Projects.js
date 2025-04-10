@@ -25,10 +25,20 @@ import {
   afterhours5,
   afterhours6,
   vasBackstage1,
+  vasBackstage2,
+  vasBackstage3,
+  vasBackstage4,
+  vasBackstage5,
+  vasBackstage6,
+  vasBackstage7,
+  vasBackstage8,
   segDashboard1,
   segDashboard2,
   segDashboard3,
-  segDashboard4
+  segDashboard4,
+  segDashboard5,
+  segDashboard6,
+  segDashboard7,
 } from "../resources/images";
 import ColourSwitch from "../components/ColourSwitch";
 
@@ -126,7 +136,7 @@ function Projects() {
                 <li>Implementing automatic deployments and site monitoring using Kubernetes and Google Cloud</li>
               </ul>
             `}
-            previews={[segDashboard1, segDashboard2, segDashboard3, segDashboard4]}
+            previews={[segDashboard1, segDashboard2, segDashboard3, segDashboard4, segDashboard5, segDashboard6, segDashboard7]}
             websiteLink="http://34.36.91.57/seg-dashboard-app/"
           />
         </div>
@@ -145,7 +155,7 @@ function Projects() {
                 <li>Users (visitors/reviewer) can make appointments to visit companies through this platform</li>
               </ul>
             `}
-            previews={[vasBackstage1]}
+            previews={[vasBackstage1, vasBackstage2, vasBackstage3, vasBackstage4, vasBackstage5, vasBackstage6, vasBackstage7, vasBackstage8]}
           />
         </div>
 
