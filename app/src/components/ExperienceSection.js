@@ -1,8 +1,8 @@
-import { Zoom } from 'react-reveal';
+
 
 function ExperienceSection(props) {
     return (
-        <Zoom>
+        <>
             <div className="experience-section">
                 <div className="experience-company"><a href={props.companyLink} target="_blank" rel="noreferrer">{props.company}</a></div>
                 <div className="experience-location">📍{props.location}</div>
@@ -12,7 +12,7 @@ function ExperienceSection(props) {
                 <div className="experience-logo"><a href={props.companyLink} target="_blank" rel="noreferrer"><img src={props.companyLogo} alt="company logo" /></a></div>
             </div>
             <div className="timeline-separator"></div>
-        </Zoom>
+        </>
     )
 }
 

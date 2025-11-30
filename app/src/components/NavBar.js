@@ -31,7 +31,7 @@ function NavBar() {
             <div className={location === "/projects/" ? "show-breadcrumb" : "collapse"}>Yu-Cheng's Portfolio &gt; About &gt; Projects</div>
             <div className={location === "/contact/" ? "show-breadcrumb" : "collapse"}>Yu-Cheng's Portfolio &gt; Contact</div>
             <div className={navOpen === true ? "nav-bar-underline-open" : "nav-bar-underline-closed"}></div>
-            
+
             <div className='line-across'></div>
         </>
     )

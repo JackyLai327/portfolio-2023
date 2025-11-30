@@ -1,9 +1,9 @@
 import React from 'react';
-import AnimatedShape from '../components/AnimatedShape';
 import NavBar from '../components/NavBar';
-import { profilePicFormal } from '../resources/images';
 import Footer from '../components/Footer';
 import ColourSwitch from '../components/ColourSwitch';
+import { profilePicFormal } from '../resources/images';
+import AnimatedShape from '../components/AnimatedShape';
 
 function Home() {
 
@@ -25,10 +25,10 @@ function Home() {
           </div>
           <span className={foundEasterEgg ? "egg-found" : "d-none"}>🥚 World says hi! 🥚</span>
           <div className='home-greeting'>Yu-Cheng Lai</div>
-          <div className='home-greeting'>DevOps / Frontend Engineer</div>
+          <div className='home-greeting'>DevOps Engineer / Fullstack Developer</div>
         </div>
       </div>
-      
+
 
       <NavBar />
 
@@ -49,10 +49,10 @@ function Home() {
           <div className="pfp"><img src={profilePicFormal} alt="profile-image" /></div>
       </div>
 
-      <AnimatedShape shape='bouncing-circle' size='.5rem' top='15.8rem' left='34.25rem'/>
-      
+      <AnimatedShape shape='bouncing-circle' size='.5rem' top='15.8rem' left='3.25rem'/>
+
       <div className='infinite-dotted-line-container'><div className='infinite-dotted-line'></div></div>
-      
+
       <div className='home-empty-space'></div>
       <Footer />
     </>

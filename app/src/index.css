@@ -74,7 +74,7 @@ li::before {
   white-space: nowrap; /* Keeps the content on a single line */
   letter-spacing: .15em; /* Adjust as needed */
   width: 34rem;
-  animation: 
+  animation:
     typing 1.5s steps(30, end),
     blink-caret .75s step-end infinite;
 }
@@ -208,7 +208,7 @@ a, a:hover, a:link, a:active, a:visited {
     width: 27rem;
   }
 }
-  
+
 @keyframes close-underline {
   0% {
     width: 27rem;
@@ -811,7 +811,7 @@ a, a:hover, a:link, a:active, a:visited {
   font-size: 1.1rem;
   margin: 1rem auto;
   color: var(--color-text);
-  padding-left: .5rem; 
+  padding-left: .5rem;
   padding-right: .5rem;
 }
 
@@ -889,7 +889,7 @@ a, a:hover, a:link, a:active, a:visited {
   color: var(--color-text);
 }
 
-.dark-mode .contact-card:hover div { 
+.dark-mode .contact-card:hover div {
   color: var(--color-light);
 }
 
@@ -916,7 +916,7 @@ a, a:hover, a:link, a:active, a:visited {
 .timeline-top {
   width: 1rem;
   height: 1rem;
-  background-color: var(--color-emphasis); 
+  background-color: var(--color-emphasis);
   border-radius: 50%;
   border: 3px solid var(--color-dark);
   position: absolute;
@@ -927,7 +927,7 @@ a, a:hover, a:link, a:active, a:visited {
 .timeline-top::after {
   content: "";
   position: absolute;
-  background-color: var(--color-dark); 
+  background-color: var(--color-dark);
   width: 2px;
   height: 10rem;
   top: .7rem;
@@ -1029,7 +1029,7 @@ a, a:hover, a:link, a:active, a:visited {
   .experience-logo img {
     margin-top: -30rem;
   }
-  
+
 }
 
 /* education stuff */
